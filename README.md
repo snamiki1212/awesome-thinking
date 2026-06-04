@@ -13,18 +13,20 @@
 | 🌊 思考法 | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
 | ⚡ 思考術 | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
 
-4つは横並びではありません。**思考法 ⊃ フレームワーク ⊃ 思考術**（抽象→具体の入れ子）で、メンタルモデルだけは別軸の「レンズ」として全体に効きます。
+4つは横並びではなく、大きく **2系統（1＋3）** に分かれます。🧠 メンタルモデルは状況を**見る「レンズ系」**（手順なしの別軸）。残り3つ（🌊 思考法 ⊃ 🧩 フレームワーク ⊃ ⚡ 思考術）は実際に**考えを進める「プロセス系」**で、抽象→具体の入れ子です。
 
 ```mermaid
 flowchart LR
-    L["🧠 メンタルモデル<br/>（別軸）"]
-    subgraph M["🌊 思考法"]
-        direction TB
-        subgraph F["🧩 フレームワーク"]
-            S["⚡ 思考術"]
+    L["🧠 メンタルモデル<br/>レンズ系（別軸）"]
+    subgraph P["プロセス系（抽象→具体）"]
+        subgraph M["🌊 思考法"]
+            direction TB
+            subgraph F["🧩 フレームワーク"]
+                S["⚡ 思考術"]
+            end
         end
     end
-    L -. 全体の見え方を変える .-> M
+    L -. 全体の見え方を変える .-> P
     style L fill:#fff3cd,stroke:#d39e00,color:#000
 ```
 
