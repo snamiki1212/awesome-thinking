@@ -36,3 +36,4 @@ tags: [問題解決, 意思決定]
 - [[first-principles]]（第一原理思考）
 - [[critical-thinking]]（クリティカルシンキング）— 仮説を疑うために併用。
 - [[pdca]]（PDCA）
+- [[extreme-case-thinking]]（極端思考）— 「答えを先に置く」仮説思考と対比すると違いが分かりやすい。

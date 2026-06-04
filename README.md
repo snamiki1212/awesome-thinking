@@ -48,6 +48,7 @@
 | 🛠 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
 | 🛠 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
 | 🛠 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
+| 🛠 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
 
 ## ディレクトリ構成
 
