@@ -17,11 +17,11 @@
 
 ```mermaid
 flowchart LR
-    L["🧠 メンタルモデル<br/>見え方のレンズ<br/>（階層ではなく別軸）"]
-    subgraph M["🧭 思考法 ＝ 攻める方向・姿勢〈抽象〉"]
+    L["🧠 メンタルモデル<br/>（別軸）"]
+    subgraph M["🧭 思考法"]
         direction TB
-        subgraph F["🧩 フレームワーク ＝ 整理する型"]
-            S["🛠 思考術 ＝ その場の一手〈具体〉"]
+        subgraph F["🧩 フレームワーク"]
+            S["🛠 思考術"]
         end
     end
     L -. 全体の見え方を変える .-> M
