@@ -53,7 +53,8 @@
 
 ```
 README.md                  # このファイル（トップの一覧）
-docs/taxonomy.md           # 4タイプの定義と違い
+docs/taxonomy.md           # 4タイプの定義と違い（＋収録の受け入れ要件）
+docs/out-of-scope.md       # 収録対象外（reject）リスト
 mental-models/             # メンタルモデル（各項目 + 一覧 README）
 frameworks/                # 思考フレームワーク
 thinking-methods/          # 思考法
