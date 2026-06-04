@@ -10,18 +10,18 @@
 | --- | --- | --- | --- | --- |
 | 🧠 メンタルモデル | 見え方を変える**レンズ** | [機会費用](./mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./mental-models/README.md) |
 | 🧩 フレームワーク | 整理する**型** | [なぜなぜ分析](./frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./frameworks/README.md) |
-| 🧭 思考法 | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
-| 🛠 思考術 | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
+| 🌊 思考法 | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
+| ⚡ 思考術 | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
 
 4つは横並びではありません。**思考法 ⊃ フレームワーク ⊃ 思考術**（抽象→具体の入れ子）で、メンタルモデルだけは別軸の「レンズ」として全体に効きます。
 
 ```mermaid
 flowchart LR
     L["🧠 メンタルモデル<br/>（別軸）"]
-    subgraph M["🧭 思考法"]
+    subgraph M["🌊 思考法"]
         direction TB
         subgraph F["🧩 フレームワーク"]
-            S["🛠 思考術"]
+            S["⚡ 思考術"]
         end
     end
     L -. 全体の見え方を変える .-> M
@@ -48,17 +48,17 @@ flowchart LR
 | 🧩 思考フレームワーク | [PDCAサイクル](./frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
 | 🧩 思考フレームワーク | [KPT](./frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
 | 🧩 思考フレームワーク | [なぜなぜ分析](./frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
-| 🧭 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
-| 🧭 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
-| 🧭 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
-| 🧭 思考法 | [システム思考](./thinking-methods/systems-thinking.md) | 要素のつながり・全体構造で捉える |
-| 🧭 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
-| 🧭 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
-| 🛠 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
-| 🛠 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
-| 🛠 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
-| 🛠 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
-| 🛠 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
+| 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
+| 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
+| 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
+| 🌊 思考法 | [システム思考](./thinking-methods/systems-thinking.md) | 要素のつながり・全体構造で捉える |
+| 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
+| 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
+| ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
+| ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
+| ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
+| ⚡ 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
+| ⚡ 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
 
 ## ディレクトリ構成
 
