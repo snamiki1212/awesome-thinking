@@ -12,5 +12,6 @@
 | 2026-06-04 | [4タイプを束ねる総称を「思考ツール」とする](./20260604-umbrella-term-thinking-tools/README.md) | Accepted（採用） |
 | 2026-06-04 | [詳細ファイルに「似ている用語との違い」節を追加する](./20260604-similar-terms-section/README.md) | Accepted（採用） |
 | 2026-06-04 | [収録の受け入れ要件を定め、対象外は却下リストに記録する](./20260604-admission-criteria/README.md) | Accepted（採用） |
+| 2026-06-04 | [思考ツールを「レンズ系（1）」と「プロセス系（3）」に大別する](./20260604-lens-vs-process-grouping/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)
