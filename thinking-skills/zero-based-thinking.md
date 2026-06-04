@@ -37,3 +37,4 @@ tags: [発想, 問題解決]
 - [[first-principles]]（第一原理思考）— 根本まで遡る点で近い。
 - [[opportunity-cost]]（機会費用）
 - [[lateral-thinking]]（ラテラルシンキング）
+- [[extreme-case-thinking]]（極端思考）— 前提を外す思考実験として近い。

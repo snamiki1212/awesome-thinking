@@ -36,3 +36,4 @@ tags: [意思決定, 分析]
 ## 関連
 - [[critical-thinking]]（クリティカルシンキング）
 - [[reframing]]（リフレーミング）
+- [[extreme-case-thinking]]（極端思考）— あえて非現実的な立場を取る点で近い。
