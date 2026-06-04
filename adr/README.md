@@ -6,5 +6,6 @@
 | 日付 | タイトル | ステータス |
 | --- | --- | --- |
 | 2026-06-02 | [タイプを L1〜L4 の通し番号で階層化しない](./20260602-no-layer-numbering/README.md) | Rejected（階層化案を却下） |
+| 2026-06-04 | [トップ README の一覧を単一テーブルに統合する](./20260604-single-table-index/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)
