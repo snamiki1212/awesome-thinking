@@ -6,28 +6,40 @@
 
 同じお題「**貯金ができない**」に、4タイプがそれぞれどう関わるか。
 
-| タイプ | ひとことで | この例で使う思考 | 「貯金ができない」にどう使うか | 一覧 |
-| --- | --- | --- | --- | --- |
-| 🧠 メンタルモデル | 見え方を変える**レンズ** | [機会費用](./mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./mental-models/README.md) |
-| 🧩 フレームワーク | 整理する**型** | [なぜなぜ分析](./frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./frameworks/README.md) |
-| 🌊 思考法 | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
-| ⚡ 思考術 | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
+| 系統 | タイプ | ひとことで | この例で使う思考 | 「貯金ができない」にどう使うか | 一覧 |
+| --- | --- | --- | --- | --- | --- |
+| 🔍 レンズ系 | 🧠 メンタルモデル | 見え方を変える**レンズ** | [機会費用](./mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./mental-models/README.md) |
+| ⚙️ プロセス系 | 🌊 思考法 | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
+| ⚙️ プロセス系 | 🧩 フレームワーク | 整理する**型** | [なぜなぜ分析](./frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./frameworks/README.md) |
+| ⚙️ プロセス系 | ⚡ 思考術 | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
 
-4つは横並びではなく、大きく **2系統（1＋3）** に分かれます。🧠 メンタルモデルは状況を**見る「🔍 レンズ系」**（手順なしの別軸）。残り3つ（🌊 思考法 ⊃ 🧩 フレームワーク ⊃ ⚡ 思考術）は実際に**考えを進める「⚙️ プロセス系」**で、抽象→具体の入れ子です。
+4タイプは大きく **2系統** に分かれ、両者をまとめた総称が **思考ツール** です（包含関係は 思考ツール ⊃ 系統 ⊃ タイプ）。🔍 **レンズ系**（＝🧠 メンタルモデル）は手順を持たず、状況の**見え方を変える**視点。⚙️ **プロセス系**（🌊 思考法 ⊃ 🧩 フレームワーク ⊃ ⚡ 思考術）は実際に**考えを進める**道具で、抽象→具体の入れ子です。レンズ系はプロセス系の全体に効きます。
 
 ```mermaid
-flowchart LR
-    L["🧠 メンタルモデル<br/>🔍 レンズ系（別軸）"]
-    subgraph P["⚙️ プロセス系（抽象→具体）"]
-        subgraph M["🌊 思考法"]
-            direction TB
-            subgraph F["🧩 フレームワーク"]
-                S["⚡ 思考術"]
+flowchart TB
+    subgraph T["思考ツール"]
+        direction TB
+        subgraph L["🔍 レンズ系（見る・捉える）"]
+            MM["🧠 メンタルモデル"]
+        end
+        subgraph P["⚙️ プロセス系（進める・動かす／抽象→具体）"]
+            subgraph TM["🌊 思考法"]
+                direction TB
+                subgraph FW["🧩 フレームワーク"]
+                    SK["⚡ 思考術"]
+                end
             end
         end
     end
-    L -. 全体の見え方を変える .-> P
-    style L fill:#fff3cd,stroke:#d39e00,color:#000
+    L -. 見え方を変える .-> P
+
+    style T fill:#ffffff,stroke:#d1d5db,stroke-width:1px,color:#111827
+    style L fill:#fcd34d,stroke:#b45309,stroke-width:4px,color:#111827
+    style P fill:#93c5fd,stroke:#1d4ed8,stroke-width:4px,color:#111827
+    style MM fill:#ffffff,stroke:#9ca3af,color:#111827
+    style TM fill:#ffffff,stroke:#9ca3af,color:#111827
+    style FW fill:#ffffff,stroke:#9ca3af,color:#111827
+    style SK fill:#ffffff,stroke:#9ca3af,color:#111827
 ```
 
 詳しい比較表は ➡ **[docs/taxonomy.md](./docs/taxonomy.md)**
