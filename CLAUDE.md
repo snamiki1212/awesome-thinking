@@ -28,7 +28,8 @@
 
 ```
 README.md                  # トップの一覧（各ジャンルの一覧へのリンク）
-docs/taxonomy.md           # 4タイプの定義と違いの整理
+docs/taxonomy.md           # 4タイプの定義と違いの整理（＋収録の受け入れ要件）
+docs/out-of-scope.md       # 収録対象外（reject）リスト
 mental-models/             # メンタルモデル
   README.md                # メンタルモデルの一覧
   <slug>.md                # 各項目の詳細
