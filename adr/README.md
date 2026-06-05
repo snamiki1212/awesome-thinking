@@ -14,7 +14,7 @@
 | 2026-06-04 | [収録の受け入れ要件を定め、対象外は却下リストに記録する](./20260604-admission-criteria/README.md) | Accepted（採用） |
 | 2026-06-04 | [思考ツールを「レンズ系（1）」と「プロセス系（3）」に大別する](./20260604-lens-vs-process-grouping/README.md) | Accepted（採用） |
 | 2026-06-04 | [4タイプの判別絵文字を確定する（思考法=🌊 / 思考術=⚡）](./20260604-type-emoji/README.md) | Accepted（採用） |
-| 2026-06-04 | [2系統の絵文字を確定する（レンズ系=🔍 / プロセス系=⚙️）](./20260604-group-emoji/README.md) | Accepted（採用） |
-| 2026-06-04 | [思考ツールの階層と呼称を整理する（総称／系統／タイプ）](./20260604-tier-terminology/README.md) | Accepted（採用） |
+| 2026-06-04 | [2グループの絵文字を確定する（レンズ=🔍 / プロセス=⚙️）](./20260604-group-emoji/README.md) | Accepted（採用） |
+| 2026-06-05 | [思考ツールの階層の呼称をカタカナ英語で揃える（総称／グループ／タイプ）](./20260604-tier-terminology/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)
