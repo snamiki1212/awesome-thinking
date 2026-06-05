@@ -37,3 +37,4 @@ tags: [意思決定, 分析]
 - [[critical-thinking]]（クリティカルシンキング）
 - [[reframing]]（リフレーミング）
 - [[extreme-case-thinking]]（極端思考）— あえて非現実的な立場を取る点で近い。
+- [[thought-experiment]]（思考実験）— 「失敗した未来」を想像する反証的な思考実験として使える。
