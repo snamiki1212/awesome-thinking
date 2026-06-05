@@ -37,3 +37,4 @@ tags: [分析, 意思決定]
 - [[logical-thinking]]（ロジカルシンキング）— 論理の正しさを支える。
 - [[devils-advocate]]（悪魔の代弁者）— 実践的な技として使える。
 - [[map-is-not-the-territory]]（地図は領土ではない）
+- [[negative-capability]]（ネガティブ・ケイパビリティ）— 性急な結論を保留する構えとして併用しやすい。

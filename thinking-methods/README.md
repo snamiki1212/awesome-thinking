@@ -11,5 +11,6 @@
 | [システム思考](./systems-thinking.md) | Systems Thinking | 要素のつながり・全体構造で捉える |
 | [デザイン思考](./design-thinking.md) | Design Thinking | 共感を起点に試作と検証で解を磨く |
 | [仮説思考](./hypothesis-thinking.md) | Hypothesis Thinking | 仮の答えを立て、検証しながら進める |
+| [ネガティブ・ケイパビリティ](./negative-capability.md) | Negative Capability | 相反する見通し・不確実さを未解決のまま抱え続ける |
 
 [← トップの一覧へ戻る](../README.md)
