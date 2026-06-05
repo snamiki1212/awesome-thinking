@@ -37,3 +37,4 @@ tags: [問題解決, 意思決定]
 ## 関連
 - [[zero-based-thinking]]（ゼロベース思考）— 前提を外す点で近いが、こちらは「事実への分解」に重きを置く。
 - [[abstraction-and-concretization]]（抽象化と具体化）
+- [[thought-experiment]]（思考実験）— 理想化して根本原理から帰結を推論する姿勢が重なる。
