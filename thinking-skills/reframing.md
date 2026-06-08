@@ -38,3 +38,4 @@ tags: [発想, 問題解決]
 - [[abstraction-and-concretization]]（抽象化と具体化）
 - [[devils-advocate]]（悪魔の代弁者）
 - [[naming]]（命名）— 名付け直しが捉え方の変化を伴うことがある。
+- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 見方を切り替えるという点で同じ系統の技。
