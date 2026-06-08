@@ -39,3 +39,4 @@ tags: [発想, 問題解決]
 - [[lateral-thinking]]（ラテラルシンキング）
 - [[extreme-case-thinking]]（極端思考）— 前提を外す思考実験として近い。
 - [[thought-experiment]]（思考実験）— 「前提を外したら何が起きるか」を想像して試す点で近い。
+- [[essentialism]]（エッセンシャル思考）— 「本当に重要か」を問い直す技として併用しやすい。

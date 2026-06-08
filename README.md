@@ -69,6 +69,7 @@ flowchart TB
 | 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
 | 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
 | 🌊 思考法 | [ネガティブ・ケイパビリティ](./thinking-methods/negative-capability.md) | 相反する見通し・不確実さを未解決のまま抱え続ける |
+| 🌊 思考法 | [エッセンシャル思考](./thinking-methods/essentialism.md) | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
 | ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
 | ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
 | ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |

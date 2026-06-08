@@ -36,3 +36,4 @@ tags: [意思決定]
 ## 関連
 - [[zero-based-thinking]]（ゼロベース思考）
 - [[critical-thinking]]（クリティカルシンキング）
+- [[essentialism]]（エッセンシャル思考）— 「何を捨てて何を取るか」のトレードオフを直視する流儀。
