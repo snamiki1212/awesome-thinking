@@ -37,3 +37,4 @@ tags: [発想]
 - [[logical-thinking]]（ロジカルシンキング）— 対をなす。発散と収束で使い分ける。
 - [[reframing]]（リフレーミング）
 - [[zero-based-thinking]]（ゼロベース思考）
+- [[analogical-reasoning]]（アナロジー思考）— 「別の業界なら」と飛ばした視点に具体的な橋を架ける。
