@@ -15,5 +15,6 @@
 | [ネガティブ・ケイパビリティ](./negative-capability.md) | Negative Capability | 相反する見通し・不確実さを未解決のまま抱え続ける |
 | [エッセンシャル思考](./essentialism.md) | Essentialism | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
 | [不確実性マネジメント](./uncertainty-management.md) | Managing Uncertainty | 減らせる未知は情報を得て減らし、減らせない未知は引き受ける |
+| [アナロジー思考](./analogical-reasoning.md) | Analogical Reasoning / 類推 | 既知の構造を別領域に写して理解・発想する |
 
 [← トップの一覧へ戻る](../README.md)
