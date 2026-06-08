@@ -16,5 +16,6 @@
 | 2026-06-04 | [4タイプの判別絵文字を確定する（思考法=🌊 / 思考術=⚡）](./20260604-type-emoji/README.md) | Accepted（採用） |
 | 2026-06-04 | [2グループの絵文字を確定する（レンズ=🔍 / プロセス=⚙️）](./20260604-group-emoji/README.md) | Accepted（採用） |
 | 2026-06-05 | [思考ツールの階層の呼称をカタカナ英語で揃える（総称／グループ／タイプ）](./20260604-tier-terminology/README.md) | Accepted（採用） |
+| 2026-06-08 | [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)
