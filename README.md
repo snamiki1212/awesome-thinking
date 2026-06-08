@@ -55,6 +55,7 @@ flowchart TB
 | 🧠 メンタルモデル | [複利](./mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
 | 🧠 メンタルモデル | [地図は領土ではない](./mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
 | 🧠 メンタルモデル | [パレートの法則](./mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
+| 🧠 メンタルモデル | [センターピン](./mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
 | 🧩 思考フレームワーク | [SWOT分析](./frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
 | 🧩 思考フレームワーク | [MECE](./frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
 | 🧩 思考フレームワーク | [ロジックツリー](./frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
