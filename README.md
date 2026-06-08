@@ -83,6 +83,7 @@ flowchart TB
 | ⚡ 思考術 | [命名](./thinking-skills/naming.md) | 名前のない事象に呼び名を与え、思考と会話で扱えるようにする |
 | ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md) | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
 | ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md) | 細部・全体・流れの3視点に切り替えて多面的に捉える |
+| ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md) | 見ずに思い出して書き出し、理解の穴を見つける |
 
 ## ディレクトリ構成
 
