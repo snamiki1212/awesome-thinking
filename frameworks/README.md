@@ -12,5 +12,6 @@
 | [PDCAサイクル](./pdca.md) | Plan-Do-Check-Act | 計画→実行→評価→改善を回し続ける |
 | [KPT](./kpt.md) | Keep-Problem-Try | 続ける・課題・次に試すで振り返る |
 | [なぜなぜ分析](./5-whys.md) | 5 Whys | 「なぜ」を繰り返して根本原因に迫る |
+| [KWLチャート](./kwl-chart.md) | KWL Chart | 知っている・知りたい・学んだの3列で学習を整理 |
 
 [← トップの一覧へ戻る](../README.md)
