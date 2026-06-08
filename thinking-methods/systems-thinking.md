@@ -36,3 +36,4 @@ tags: [問題解決, 分析]
 ## 関連
 - [[compound-interest]]（複利）— フィードバックループの一例。
 - [[map-is-not-the-territory]]（地図は領土ではない）
+- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 鳥の目・魚の目を大きな構えとして体系化した思考法。
