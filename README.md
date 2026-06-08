@@ -63,6 +63,7 @@ flowchart TB
 | 🧩 思考フレームワーク | [PDCAサイクル](./frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
 | 🧩 思考フレームワーク | [KPT](./frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
 | 🧩 思考フレームワーク | [なぜなぜ分析](./frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
+| 🧩 思考フレームワーク | [KWLチャート](./frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
 | 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
 | 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
 | 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
