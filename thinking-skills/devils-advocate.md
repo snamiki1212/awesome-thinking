@@ -4,7 +4,7 @@ slug: devils-advocate
 type: thinking-skill
 aliases: [Devil's Advocate, あえて反対する役]
 description: "あえて反対意見・反論の役を引き受け、結論の弱点を意図的にあぶり出す技。"
-timestamp: 2026-06-05T18:25:10+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 分析]
 ---
 
@@ -36,8 +36,8 @@ tags: [意思決定, 分析]
 - 反論のための反論で終わらせず、改善につなげる。
 
 ## 関連
-- [[critical-thinking]]（クリティカルシンキング）
-- [[reframing]]（リフレーミング）
-- [[extreme-case-thinking]]（極端思考）— あえて非現実的な立場を取る点で近い。
-- [[thought-experiment]]（思考実験）— 「失敗した未来」を想像する反証的な思考実験として使える。
-- [[negative-capability]]（ネガティブ・ケイパビリティ）— あえて反対側のシナリオを担い、相反する2つの見通しを同時に保持する助けになる。
+- [critical-thinking](../thinking-methods/critical-thinking.md)（クリティカルシンキング）
+- [reframing](./reframing.md)（リフレーミング）
+- [extreme-case-thinking](./extreme-case-thinking.md)（極端思考）— あえて非現実的な立場を取る点で近い。
+- [thought-experiment](./thought-experiment.md)（思考実験）— 「失敗した未来」を想像する反証的な思考実験として使える。
+- [negative-capability](../thinking-methods/negative-capability.md)（ネガティブ・ケイパビリティ）— あえて反対側のシナリオを担い、相反する2つの見通しを同時に保持する助けになる。

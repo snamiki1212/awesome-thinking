@@ -4,7 +4,7 @@ slug: lateral-thinking
 type: thinking-method
 aliases: [Lateral Thinking, 水平思考]
 description: "論理の積み上げではなく、前提を飛び越えて新しい発想を生む流儀。"
-timestamp: 2026-06-08T15:19:03+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想]
 ---
 
@@ -36,7 +36,7 @@ tags: [発想]
 - 思いつきで終わらせず、最後は論理（垂直思考）で実現性を検証する。
 
 ## 関連
-- [[logical-thinking]]（ロジカルシンキング）— 対をなす。発散と収束で使い分ける。
-- [[reframing]]（リフレーミング）
-- [[zero-based-thinking]]（ゼロベース思考）
-- [[analogical-reasoning]]（アナロジー思考）— 「別の業界なら」と飛ばした視点に具体的な橋を架ける。
+- [logical-thinking](./logical-thinking.md)（ロジカルシンキング）— 対をなす。発散と収束で使い分ける。
+- [reframing](../thinking-skills/reframing.md)（リフレーミング）
+- [zero-based-thinking](../thinking-skills/zero-based-thinking.md)（ゼロベース思考）
+- [analogical-reasoning](./analogical-reasoning.md)（アナロジー思考）— 「別の業界なら」と飛ばした視点に具体的な橋を架ける。

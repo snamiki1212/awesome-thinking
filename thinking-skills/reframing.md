@@ -4,7 +4,7 @@ slug: reframing
 type: thinking-skill
 aliases: [Reframing, 枠組みの捉え直し]
 description: "同じ事実を別の枠組み（フレーム）から捉え直し、意味づけや見え方を変える技。"
-timestamp: 2026-06-08T15:19:03+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決]
 ---
 
@@ -36,9 +36,9 @@ tags: [発想, 問題解決]
 - 枠を変えるだけで終えず、行動につなげる。
 
 ## 関連
-- [[lateral-thinking]]（ラテラルシンキング）
-- [[abstraction-and-concretization]]（抽象化と具体化）
-- [[devils-advocate]]（悪魔の代弁者）
-- [[naming]]（命名）— 名付け直しが捉え方の変化を伴うことがある。
-- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 見方を切り替えるという点で同じ系統の技。
-- [[analogical-reasoning]]（アナロジー思考）— 別の題材にたとえることが、問題の枠組みの捉え直しになる。
+- [lateral-thinking](../thinking-methods/lateral-thinking.md)（ラテラルシンキング）
+- [abstraction-and-concretization](./abstraction-and-concretization.md)（抽象化と具体化）
+- [devils-advocate](./devils-advocate.md)（悪魔の代弁者）
+- [naming](./naming.md)（命名）— 名付け直しが捉え方の変化を伴うことがある。
+- [birds-worms-fish-eye](./birds-worms-fish-eye.md)（虫の目・鳥の目・魚の目）— 見方を切り替えるという点で同じ系統の技。
+- [analogical-reasoning](../thinking-methods/analogical-reasoning.md)（アナロジー思考）— 別の題材にたとえることが、問題の枠組みの捉え直しになる。

@@ -4,7 +4,7 @@ slug: hypothesis-thinking
 type: thinking-method
 aliases: [Hypothesis Thinking, 仮説driven]
 description: "情報を集めきる前に「たぶんこうだ」という仮の答えを立て、それを検証しながら進める流儀。"
-timestamp: 2026-06-08T16:55:29+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定]
 ---
 
@@ -35,12 +35,12 @@ tags: [問題解決, 意思決定]
 - 仮説の質が低いと検証が空回りする。立てる→直すを速く回す。
 
 ## 関連
-- [[first-principles]]（第一原理思考）
-- [[critical-thinking]]（クリティカルシンキング）— 仮説を疑うために併用。
-- [[pdca]]（PDCA）
-- [[extreme-case-thinking]]（極端思考）— 「答えを先に置く」仮説思考と対比すると違いが分かりやすい。
-- [[thought-experiment]]（思考実験）— 検証の場が現実か思考内かで対比すると違いが分かりやすい。
-- [[negative-capability]]（ネガティブ・ケイパビリティ）— 早く一つの仮説に絞る本項と対照的に、結論を保留して矛盾を抱え続ける構え。
-- [[issue-driven]]（イシュー思考）— 仮説を立てる前に「そもそも解くべき問い」を見極める構え。組で使う。
-- [[kwl-chart]]（KWLチャート）— K（現時点の理解）と W（問い）を立て、L で検証する流れが仮説→検証に近い。
-- [[analogical-reasoning]]（アナロジー思考）— 似た事例から転用した解は仮説であり、検証の流れにつながる。
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）
+- [critical-thinking](./critical-thinking.md)（クリティカルシンキング）— 仮説を疑うために併用。
+- [pdca](../thinking-frameworks/pdca.md)（PDCA）
+- [extreme-case-thinking](../thinking-skills/extreme-case-thinking.md)（極端思考）— 「答えを先に置く」仮説思考と対比すると違いが分かりやすい。
+- [thought-experiment](../thinking-skills/thought-experiment.md)（思考実験）— 検証の場が現実か思考内かで対比すると違いが分かりやすい。
+- [negative-capability](./negative-capability.md)（ネガティブ・ケイパビリティ）— 早く一つの仮説に絞る本項と対照的に、結論を保留して矛盾を抱え続ける構え。
+- [issue-driven](./issue-driven.md)（イシュー思考）— 仮説を立てる前に「そもそも解くべき問い」を見極める構え。組で使う。
+- [kwl-chart](../thinking-frameworks/kwl-chart.md)（KWLチャート）— K（現時点の理解）と W（問い）を立て、L で検証する流れが仮説→検証に近い。
+- [analogical-reasoning](./analogical-reasoning.md)（アナロジー思考）— 似た事例から転用した解は仮説であり、検証の流れにつながる。

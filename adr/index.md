@@ -22,6 +22,8 @@
 * [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/) - 項目の命名は特定の著者・一冊の本の造語より、その分野で一般的・確立した呼称を優先し、出典は単一に依存しないと定める。
 * [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/) - OKF v0.1 をベースにした独自プロファイル OKF-AT を定義し、リポジトリ全体のナレッジ管理フォーマットとして採用する。
 * [OKF の目次 index.md をツールで自動生成する](./20260713-generate-okf-index/) - OKF の予約ファイル index.md を scripts/gen-okf-index で全ディレクトリに自動生成し、CI で最新かを検査する運用を定める。
+* [関連セクションのリンクを Markdown リンクに統一する](./20260713-markdown-links-for-related-sections/) - 詳細ファイルの関連付けに使っていた wikilink（[[スラッグ]]）を廃止し、参照元からの相対パスの Markdown リンクに統一する。
+* [詳細ファイルに任意の「図解」節を設け、mermaid で図示する](./20260713-optional-diagram-section/) - 構造そのものが図的な項目に限り、定義の直後に mermaid の図解節を置く。全項目必須にはしない。
 * [README の一覧列挙は index.md に委ねる（トップ README を除く）](./20260713-readme-delegates-listing-to-index/) - README.md には配下の一覧を列挙せず index.md へのリンクを置き、コアコンテンツであるトップ README の一覧だけを手書きで維持すると定める。
 * [手書き文書には規則だけを書き、実体の列挙は index.md に委ねる](./20260713-rules-not-inventory/) - CLAUDE.md・トップ README の「ディレクトリ構成」節から増減する実体の列挙を除き、配置の規則だけを書くと定める。
 * [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/) - メインコンテンツの4タイプを一覧で判別できるよう、ディレクトリ名を thinking- prefix で統一すると定めた記録。

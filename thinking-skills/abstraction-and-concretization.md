@@ -4,7 +4,7 @@ slug: abstraction-and-concretization
 type: thinking-skill
 aliases: [Abstraction and Concretization, 抽象と具体の往復]
 description: "具体的な事象から本質を抜き出し（抽象化）、本質を別の場面に当てはめ直す（具体化）、その往復の技。"
-timestamp: 2026-06-08T15:19:03+09:00
+timestamp: 2026-07-13T14:50:00+09:00
 tags: [発想, 問題解決, 伝達]
 ---
 
@@ -17,6 +17,15 @@ tags: [発想, 問題解決, 伝達]
 - **抽象化**: 個別の事例から、共通する本質・パターン・構造を取り出すこと。
 - **具体化**: 抽象的な概念を、特定の状況・例・行動に落とし込むこと。
 この2つを行き来することで、応用・転用・伝達ができるようになる。
+
+## 図解
+目の前の具体から本質を抜き出し、それを別の場面に当てはめ直す往復。
+
+```mermaid
+flowchart LR
+    A["具体<br/>あの店の行列対策"] -- 抽象化（要するに何か？） --> B["抽象<br/>待ち時間の体感を下げる工夫"]
+    B -- 具体化（例えば？） --> C["別の具体<br/>自社の問い合わせ対応に応用"]
+```
 
 ## 使いどころ
 - ある分野の成功例を別の分野に応用したいとき。
@@ -38,8 +47,8 @@ tags: [発想, 問題解決, 伝達]
 - 具体だけだと応用が利かない。常に往復させるのがコツ。
 
 ## 関連
-- [[first-principles]]（第一原理思考）
-- [[reframing]]（リフレーミング）
-- [[naming]]（命名）— 抽象化で抜き出した本質に名前をつけると扱いやすくなる。
-- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 鳥の目⇔虫の目の往復が抽象⇔具体に対応する。
-- [[analogical-reasoning]]（アナロジー思考）— 抽象化で抜き出した本質を別領域に写す土台になる。
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）
+- [reframing](./reframing.md)（リフレーミング）
+- [naming](./naming.md)（命名）— 抽象化で抜き出した本質に名前をつけると扱いやすくなる。
+- [birds-worms-fish-eye](./birds-worms-fish-eye.md)（虫の目・鳥の目・魚の目）— 鳥の目⇔虫の目の往復が抽象⇔具体に対応する。
+- [analogical-reasoning](../thinking-methods/analogical-reasoning.md)（アナロジー思考）— 抽象化で抜き出した本質を別領域に写す土台になる。
