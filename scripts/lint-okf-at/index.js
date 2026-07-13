@@ -29,6 +29,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { loadIgnorePatterns, parseFrontmatter } = require('../lib/okf-md');
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const IGNORE_PATH = path.join(__dirname, 'ignore.txt');
@@ -43,57 +44,13 @@ const ISO_8601 = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(Z|[+-]\d{2}:?
 // OKF の予約ファイル。Concept ではないため frontmatter を要求しない。
 const RESERVED_FILES = new Set(['index.md', 'log.md']);
 
-/**
- * ignore.txt の 1 パターンを正規表現に変換する（gitignore 記法のサブセット）。
- *   - 末尾 `/` はディレクトリ（配下すべてに一致）
- *   - 先頭 `/` または `/` を含むパターンはリポジトリルート起点
- *   - `/` を含まないパターンはファイル名としてどの階層でも一致
- *   - `**` は `/` を跨ぐ、`*` は跨がない、`?` は任意の 1 文字。否定 (`!`) は未対応
- */
-function patternToRegExp(raw) {
-  let pat = raw;
-  const dirOnly = pat.endsWith('/');
-  if (dirOnly) pat = pat.slice(0, -1);
-  let anchored = false;
-  if (pat.startsWith('/')) {
-    anchored = true;
-    pat = pat.slice(1);
-  } else if (pat.includes('/')) {
-    anchored = true;
-  }
-  let src = '';
-  for (let i = 0; i < pat.length; i++) {
-    const c = pat[i];
-    if (c === '*') {
-      if (pat[i + 1] === '*') {
-        src += '.*';
-        i++;
-      } else {
-        src += '[^/]*';
-      }
-    } else if (c === '?') {
-      src += '[^/]';
-    } else {
-      src += c.replace(/[.+^${}()|[\]\\]/, '\\$&');
-    }
-  }
-  const prefix = anchored ? '^' : '(^|.*/)';
-  const suffix = dirOnly ? '(/.*)?$' : '$';
-  return new RegExp(prefix + src + suffix);
-}
-
 /** ignore.txt を読み込み、パターンの RegExp 配列を返す。 */
-function loadIgnorePatterns() {
+function loadIgnore() {
   if (!fs.existsSync(IGNORE_PATH)) {
     console.error(`❌ 除外パターンファイルがない: ${path.relative(REPO_ROOT, IGNORE_PATH)}`);
     process.exit(1);
   }
-  return fs
-    .readFileSync(IGNORE_PATH, 'utf8')
-    .split(/\r?\n/)
-    .map((l) => l.trim())
-    .filter((l) => l && !l.startsWith('#'))
-    .map(patternToRegExp);
+  return loadIgnorePatterns(IGNORE_PATH);
 }
 
 /** ディレクトリ配下の .md ファイルを再帰的に列挙する（リポジトリルート相対パスで返す）。 */
@@ -110,46 +67,6 @@ function listMarkdown(dir, ignore) {
     }
   }
   return out;
-}
-
-/**
- * frontmatter を素朴にパースする（依存なし）。
- * トップレベルの `key: value` と、直後のブロックリスト（`- item`）のみ解釈する。
- * 戻り値: { fields: Map<key, {hasValue}> } / frontmatter がない・閉じていない場合は null
- */
-function parseFrontmatter(text) {
-  const lines = text.split(/\r?\n/);
-  if (lines[0] !== '---') return null;
-  let end = -1;
-  for (let i = 1; i < lines.length; i++) {
-    if (lines[i] === '---' || lines[i] === '...') {
-      end = i;
-      break;
-    }
-  }
-  if (end === -1) return null;
-
-  const fields = new Map();
-  let lastKey = null;
-  for (let i = 1; i < end; i++) {
-    const line = lines[i];
-    if (/^\s*(#|$)/.test(line)) continue; // コメント・空行
-    const kv = /^([A-Za-z0-9_-]+):\s*(.*)$/.exec(line);
-    if (kv) {
-      const value = kv[2].replace(/\s+#.*$/, '').trim();
-      const stripped = value.replace(/^['"]|['"]$/g, '');
-      // 空文字・空リストは「値なし」とみなす
-      const hasValue = stripped !== '' && stripped !== '[]';
-      fields.set(kv[1], { hasValue, value: stripped });
-      lastKey = kv[1];
-      continue;
-    }
-    // ブロックリスト項目は直前のキーの値とみなす（YAML はインデントなしの項目も許す）
-    if (/^\s*-\s+\S/.test(line) && lastKey) {
-      fields.get(lastKey).hasValue = true;
-    }
-  }
-  return { fields };
 }
 
 /** 1 ファイルを検査し、違反メッセージの配列を返す。 */
@@ -190,7 +107,7 @@ function loadAllowlist() {
 }
 
 function main() {
-  const ignore = loadIgnorePatterns();
+  const ignore = loadIgnore();
   const allowlist = loadAllowlist();
   const targets = listMarkdown(REPO_ROOT, ignore).sort();
 

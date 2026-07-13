@@ -2,7 +2,7 @@
 type: readme
 title: 意思決定の記録（ADR）一覧
 description: "リポジトリの構成・方針・分類に関する意思決定（ADR）の一覧。"
-timestamp: 2026-07-13T00:00:00+09:00
+timestamp: 2026-07-13T12:00:00+09:00
 tags: [一覧, adr]
 ---
 
@@ -27,5 +27,6 @@ tags: [一覧, adr]
 | 2026-06-08 | [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/README.md) | Accepted（採用） |
 | 2026-07-13 | [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/README.md) | Accepted（採用） |
 | 2026-07-13 | [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/README.md) | Accepted（採用） |
+| 2026-07-13 | [OKF の目次 index.md をツールで自動生成する](./20260713-generate-okf-index/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)

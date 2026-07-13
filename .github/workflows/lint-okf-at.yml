@@ -19,3 +19,7 @@ jobs:
       # 正典 (SoT): 仕様 = docs/okf-at/README.md / 除外パターン = scripts/lint-okf-at/ignore.txt
       - name: Markdown の OKF-AT frontmatter 準拠を検査
         run: node scripts/lint-okf-at
+      # index.md（OKF の目次）は scripts/gen-okf-index の生成物。
+      # 生成し直した結果と差分があれば fail し、再生成漏れを検出する。
+      - name: index.md（目次）が最新かを検査
+        run: node scripts/gen-okf-index --check
