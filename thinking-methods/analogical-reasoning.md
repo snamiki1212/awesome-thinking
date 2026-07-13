@@ -4,7 +4,7 @@ slug: analogical-reasoning
 type: thinking-method
 aliases: [Analogical Reasoning, Reasoning by Analogy, 類推, アナロジー]
 description: "既知の物事（ベース）から「関係の構造」を抜き出し、別の物事（ターゲット）に写し取って理解・発想する流儀。"
-timestamp: 2026-06-08T15:19:03+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決, 学習]
 ---
 
@@ -43,13 +43,13 @@ tags: [発想, 問題解決, 学習]
 - 強力な比喩は説得力を持ちすぎて、不適切でも疑われにくい。だからこそ写像の検証を省かない。
 
 ## 似ている用語との違い
-- **抽象化と具体化（Abstraction / Concretization）** — どちらも「本質を抜き出して別の場面に当てはめる」点で重なるが、抽象化と具体化は**縦の往復**（具体↔抽象の高さ移動）そのものを指す技。アナロジー思考は、その抽象化を経由して**横に写す**（別領域へ対応づける）ことを目的とする思考の流儀。→ [[abstraction-and-concretization]]
+- **抽象化と具体化（Abstraction / Concretization）** — どちらも「本質を抜き出して別の場面に当てはめる」点で重なるが、抽象化と具体化は**縦の往復**（具体↔抽象の高さ移動）そのものを指す技。アナロジー思考は、その抽象化を経由して**横に写す**（別領域へ対応づける）ことを目的とする思考の流儀。→ [abstraction-and-concretization](../thinking-skills/abstraction-and-concretization.md)
 - **メタファー／比喩（Metaphor）** — 似た構造を「AはBだ」と表現するレトリック。主目的は伝達・表現であり、アナロジーのように**そこから推論を進めて結論を得る**ものではない。
 - **帰納（Induction）** — 多数の事例から一般則を引き出す推論。アナロジーは多数を集めず、**1つのベースとの構造の対応**だけで結論を運ぶ点が違う。
 - **演繹（Deduction）** — 一般則から個別を必然的に導く。アナロジーの結論は必然ではなく蓋然的な仮説にとどまる。
 
 ## 関連
-- [[abstraction-and-concretization]]（抽象化と具体化）— アナロジーの土台。本質を抜き出す抽象化があってはじめて別領域へ写せる。
-- [[lateral-thinking]]（ラテラルシンキング）— 「別の業界ならどうするか」と視点を飛ばす発想に、アナロジーが具体的な橋を架ける。
-- [[hypothesis-thinking]]（仮説思考）— アナロジーで得た転用は仮説であり、検証して確かめる流れにつながる。
-- [[reframing]]（リフレーミング）— 別の題材にたとえることが、問題の枠組みの捉え直しにもなる。
+- [abstraction-and-concretization](../thinking-skills/abstraction-and-concretization.md)（抽象化と具体化）— アナロジーの土台。本質を抜き出す抽象化があってはじめて別領域へ写せる。
+- [lateral-thinking](./lateral-thinking.md)（ラテラルシンキング）— 「別の業界ならどうするか」と視点を飛ばす発想に、アナロジーが具体的な橋を架ける。
+- [hypothesis-thinking](./hypothesis-thinking.md)（仮説思考）— アナロジーで得た転用は仮説であり、検証して確かめる流れにつながる。
+- [reframing](../thinking-skills/reframing.md)（リフレーミング）— 別の題材にたとえることが、問題の枠組みの捉え直しにもなる。

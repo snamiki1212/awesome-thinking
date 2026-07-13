@@ -4,7 +4,7 @@ slug: map-is-not-the-territory
 type: mental-model
 aliases: [The Map is Not the Territory, モデルと現実の区別]
 description: "私たちが持つモデル・説明・データは現実そのものではなく、現実を簡略化した「地図」にすぎない、という見方。"
-timestamp: 2026-06-04T18:04:53+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [分析, 意思決定]
 ---
 
@@ -36,5 +36,5 @@ tags: [分析, 意思決定]
 - すべてを疑いすぎると意思決定が止まる。
 
 ## 関連
-- [[critical-thinking]]（クリティカルシンキング）
-- [[systems-thinking]]（システム思考）
+- [critical-thinking](../thinking-methods/critical-thinking.md)（クリティカルシンキング）
+- [systems-thinking](../thinking-methods/systems-thinking.md)（システム思考）

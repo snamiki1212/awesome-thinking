@@ -4,7 +4,7 @@ slug: thought-experiment
 type: thinking-skill
 aliases: [Thought Experiment, Gedankenexperiment, 仮想実験]
 description: "実際には実験できない問いを、頭の中に仮想の状況を設定して「もしそうなら何が起きるか」を推論することで検討する技。"
-timestamp: 2026-06-05T16:00:21+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定, 発想, 分析]
 ---
 
@@ -43,8 +43,8 @@ tags: [問題解決, 意思決定, 発想, 分析]
 - **シミュレーション** — 状況を仮想的に走らせる点で似るが、シミュレーションは**数値モデルや計算で多数の結果を出す**もの、思考実験は**論理だけで本質的な帰結を1本たどる**もの。
 
 ## 関連
-- [[extreme-case-thinking]]（極端思考）— 変数を両極端に振る、思考実験の特化版
-- [[zero-based-thinking]]（ゼロベース思考）— 前提を外した仮想状況を想像する点で近い
-- [[devils-advocate]]（悪魔の代弁者）— 「失敗した未来」を想像する反証的な思考実験として併用しやすい
-- [[first-principles]]（第一原理思考）— 理想化して根本原理から推論する姿勢が重なる
-- [[hypothesis-thinking]]（仮説思考）— 「検証の場が現実か思考内か」で対比すると違いが分かりやすい
+- [extreme-case-thinking](./extreme-case-thinking.md)（極端思考）— 変数を両極端に振る、思考実験の特化版
+- [zero-based-thinking](./zero-based-thinking.md)（ゼロベース思考）— 前提を外した仮想状況を想像する点で近い
+- [devils-advocate](./devils-advocate.md)（悪魔の代弁者）— 「失敗した未来」を想像する反証的な思考実験として併用しやすい
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）— 理想化して根本原理から推論する姿勢が重なる
+- [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）— 「検証の場が現実か思考内か」で対比すると違いが分かりやすい

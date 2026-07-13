@@ -4,7 +4,7 @@ slug: first-principles
 type: mental-model
 aliases: [First Principles Thinking, 第一原理, 原理原則思考]
 description: "「当たり前」とされている前提を疑い、これ以上分解できない根本の事実（第一原理）まで遡ってから考え直す見方。"
-timestamp: 2026-06-05T16:00:21+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定]
 ---
 
@@ -37,6 +37,6 @@ tags: [問題解決, 意思決定]
 - 「根本の事実」だと思ったものが実は別の前提だった、という見落としに注意。
 
 ## 関連
-- [[zero-based-thinking]]（ゼロベース思考）— 前提を外す点で近いが、こちらは「事実への分解」に重きを置く。
-- [[abstraction-and-concretization]]（抽象化と具体化）
-- [[thought-experiment]]（思考実験）— 理想化して根本原理から帰結を推論する姿勢が重なる。
+- [zero-based-thinking](../thinking-skills/zero-based-thinking.md)（ゼロベース思考）— 前提を外す点で近いが、こちらは「事実への分解」に重きを置く。
+- [abstraction-and-concretization](../thinking-skills/abstraction-and-concretization.md)（抽象化と具体化）
+- [thought-experiment](../thinking-skills/thought-experiment.md)（思考実験）— 理想化して根本原理から帰結を推論する姿勢が重なる。

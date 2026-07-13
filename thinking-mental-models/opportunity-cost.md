@@ -4,7 +4,7 @@ slug: opportunity-cost
 type: mental-model
 aliases: [Opportunity Cost, 機会コスト]
 description: "あるものを選ぶことは、選ばなかった他の選択肢から得られたはずの価値を捨てること、という見方。"
-timestamp: 2026-06-08T13:51:22+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定]
 ---
 
@@ -36,6 +36,6 @@ tags: [意思決定]
 - 埋没費用（すでに払って戻らないコスト）と混同しない。判断材料は将来の機会費用。
 
 ## 関連
-- [[zero-based-thinking]]（ゼロベース思考）
-- [[critical-thinking]]（クリティカルシンキング）
-- [[essentialism]]（エッセンシャル思考）— 「何を捨てて何を取るか」のトレードオフを直視する流儀。
+- [zero-based-thinking](../thinking-skills/zero-based-thinking.md)（ゼロベース思考）
+- [critical-thinking](../thinking-methods/critical-thinking.md)（クリティカルシンキング）
+- [essentialism](../thinking-methods/essentialism.md)（エッセンシャル思考）— 「何を捨てて何を取るか」のトレードオフを直視する流儀。

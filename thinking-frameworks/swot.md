@@ -4,7 +4,7 @@ slug: swot
 type: framework
 aliases: [SWOT Analysis]
 description: "強み・弱み・機会・脅威の4象限に情報を整理し、戦略の現状を把握する枠組み。"
-timestamp: 2026-06-04T18:04:53+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [分析, 意思決定, 戦略]
 ---
 
@@ -36,5 +36,5 @@ tags: [分析, 意思決定, 戦略]
 - 「強み/機会」の切り分けが主観的になりやすい。事実で裏づける。
 
 ## 関連
-- [[mece]]（MECE）— 漏れ・ダブりなく書き出すために併用。
-- [[logical-thinking]]（ロジカルシンキング）
+- [mece](./mece.md)（MECE）— 漏れ・ダブりなく書き出すために併用。
+- [logical-thinking](../thinking-methods/logical-thinking.md)（ロジカルシンキング）

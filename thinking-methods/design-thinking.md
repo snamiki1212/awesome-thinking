@@ -4,7 +4,7 @@ slug: design-thinking
 type: thinking-method
 aliases: [Design Thinking]
 description: "ユーザーへの共感を起点に、試作と検証を繰り返して解を磨く流儀。"
-timestamp: 2026-06-04T18:04:53+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決, ユーザー]
 ---
 
@@ -37,5 +37,5 @@ tags: [発想, 問題解決, ユーザー]
 - 共感を飛ばしてアイデア出しから始めると、的外れになりやすい。
 
 ## 関連
-- [[hypothesis-thinking]]（仮説思考）
-- [[lateral-thinking]]（ラテラルシンキング）
+- [hypothesis-thinking](./hypothesis-thinking.md)（仮説思考）
+- [lateral-thinking](./lateral-thinking.md)（ラテラルシンキング）
