@@ -2,7 +2,7 @@
 type: guideline
 title: CLAUDE.md（エージェント向け作業方針）
 description: "このリポジトリで作業する際の方針を Claude などのコーディングエージェントに伝える指示書。"
-timestamp: 2026-07-13T13:00:00+09:00
+timestamp: 2026-07-13T14:00:00+09:00
 tags: [運用ルール]
 ---
 
@@ -48,27 +48,25 @@ tags: [運用ルール]
 
 タイプ（思考の種類）ごとにディレクトリを分けます。種類の定義そのものが、ディレクトリの境界になります。
 
+この節が示すのは配置の規則だけです。
+いまあるファイルの網羅的な一覧は、この節には書かず、各ディレクトリの `index.md`（自動生成の目次）を参照してください。経緯: [adr/20260713-rules-not-inventory](./adr/20260713-rules-not-inventory/README.md)
+
 ```
-README.md                  # トップの一覧（各ジャンルの一覧へのリンク）
-docs/taxonomy.md           # 4タイプの定義と違いの整理（＋収録の受け入れ要件）
-docs/out-of-scope.md       # 収録対象外（reject）リスト
-docs/okf-at/               # ナレッジ管理フォーマット OKF-AT の規約（正典）
-scripts/lint-okf-at/       # OKF-AT 準拠を検査する linter（CI・ローカル共用）
-scripts/gen-okf-index/     # 各ディレクトリの index.md（目次）を自動生成するツール
-scripts/lib/               # 上記 2 ツールの共通処理
+README.md                  # トップの一覧（手書きで維持するコアコンテンツ）
+index.md                   # 機械・エージェント向けの目次（自動生成。Concept を含む各ディレクトリに置く）
 thinking-frameworks/       # 思考フレームワーク
   README.md                # ジャンルの概要（一覧は index.md に委ねる）
   index.md                 # 一覧（自動生成）
-  <slug>.md                # 各項目の詳細
+  <slug>.md                # 各項目の詳細（英語 kebab-case）
 thinking-mental-models/    # メンタルモデル
 thinking-methods/          # 思考法
 thinking-skills/           # 思考術
 adr/                       # 意思決定の記録（ADR）
-  README.md                # ディレクトリの概要（一覧は index.md に委ねる）
-  index.md                 # ADR の一覧（自動生成）
   yyyymmdd-<name>/         # 1意思決定 = 1ディレクトリ
     README.md              # 決定の本文
-CLAUDE.md
+docs/                      # 運用ドキュメント（分類の定義・OKF-AT 規約など）
+scripts/                   # 支援ツール（OKF-AT linter・index.md ジェネレータ）
+CLAUDE.md                  # 執筆・運用方針（このファイル）
 ```
 
 各タイプの定義は `docs/taxonomy.md` を正本とします。新しい項目を追加する前に必ず参照してください。

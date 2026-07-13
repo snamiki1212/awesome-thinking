@@ -2,7 +2,7 @@
 type: readme
 title: awesome-thinking
 description: "「思考」の知識（メンタルモデル・思考フレームワーク・思考法・思考術）を集めて整理するリポジトリのトップの一覧。"
-timestamp: 2026-07-13T13:00:00+09:00
+timestamp: 2026-07-13T14:00:00+09:00
 tags: [一覧]
 ---
 
@@ -96,14 +96,16 @@ flowchart TB
 
 ## ディレクトリ構成
 
+いまあるファイルの一覧は、各ディレクトリの [index.md](./index.md)（自動生成の目次）を参照してください。ここでは配置の規則だけを示します。
+
 ```
 README.md                  # このファイル（トップの一覧）
-docs/taxonomy.md           # 4タイプの定義と違い（＋収録の受け入れ要件）
-docs/out-of-scope.md       # 収録対象外（reject）リスト
-thinking-frameworks/       # 思考フレームワーク（各項目。一覧は index.md）
+index.md                   # 機械・エージェント向けの目次（自動生成。各ディレクトリにもある）
+thinking-frameworks/       # 思考フレームワーク
 thinking-mental-models/    # メンタルモデル
 thinking-methods/          # 思考法
 thinking-skills/           # 思考術
+docs/                      # 運用ドキュメント（4タイプの定義、OKF-AT 規約など）
 adr/                       # 意思決定の記録（yyyymmdd-<name>/ ごと）
 CLAUDE.md                  # 執筆・運用方針
 ```
