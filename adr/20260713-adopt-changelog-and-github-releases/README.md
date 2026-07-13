@@ -54,6 +54,6 @@ PR の列挙は GitHub が生成するため、同じ一覧を手で維持する
 ## 影響
 
 - 利用者に影響する PR は `CHANGELOG.md` の `Unreleased` を更新する。
-- Release を公開するときは、`Unreleased` の下へ日付ベースのタグを確定し、その変更を含む `main` のコミットから GitHub の自動生成リリースノートを公開する。
+- Release を公開するときは、`Unreleased` の下へ Semantic Versioning のタグを確定し、その変更を含む `main` のコミットから GitHub の自動生成リリースノートを公開する。
 - リポジトリ管理者は GitHub 上で、運用に必要なラベルを初回だけ作成する。
 - GitHub CLI の認証が失効しているため、この決定の適用時点ではラベル作成と初回 Release の公開を行わない。
