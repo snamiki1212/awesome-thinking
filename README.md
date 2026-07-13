@@ -36,19 +36,15 @@ tags: [一覧]
 flowchart TB
     subgraph T["思考ツール"]
         direction TB
-        subgraph L["🔍 レンズ（見る・捉える）"]
-            MM["🧠 メンタルモデル"]
+        subgraph L["🔍 レンズ"]
+            MM["🧠 メンタルモデル<br/>状況の見え方を変える"]
         end
-        subgraph P["⚙️ プロセス（進める・動かす／抽象→具体）"]
-            subgraph TM["🌊 思考法"]
-                direction TB
-                subgraph FW["🧩 フレームワーク"]
-                    SK["⚡ 思考術"]
-                end
-            end
+        subgraph P["⚙️ プロセス（考えを進める）"]
+            direction LR
+            TM["🌊 思考法<br/>方向・姿勢（抽象）"] --> FW["🧩 思考フレームワーク<br/>整理の型"] --> SK["⚡ 思考術<br/>その場で試す一手（具体）"]
         end
     end
-    L -. 見え方を変える .-> P
+    MM -. プロセス全体の見え方を変える .-> P
 
     style T fill:#ffffff,stroke:#d1d5db,stroke-width:1px,color:#111827
     style L fill:#fcd34d,stroke:#b45309,stroke-width:4px,color:#111827
