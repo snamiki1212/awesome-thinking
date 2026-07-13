@@ -2,13 +2,15 @@
 type: readme
 title: awesome-thinking
 description: "「思考」の知識（メンタルモデル・思考フレームワーク・思考法・思考術）を集めて整理するリポジトリのトップの一覧。"
-timestamp: 2026-07-13T14:00:00+09:00
+timestamp: 2026-07-13T15:00:00+09:00
 tags: [一覧]
 ---
 
 # awesome-thinking
 
 「思考」に関するメンタルモデル・思考法・思考フレームワーク・思考術を、Markdown で整理するリポジトリです。
+
+更新内容は [CHANGELOG.md](./CHANGELOG.md) を参照してください。
 
 ## 4タイプの違い
 

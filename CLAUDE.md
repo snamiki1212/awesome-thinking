@@ -112,6 +112,12 @@ CLAUDE.md                  # 執筆・運用方針（このファイル）
 - 項目名は、特定の著者・一冊の本の造語より、その分野で一般的・確立した呼称を優先する。出典は単一に依存せず、特定著者の整理は「整理の一つ」として明示する。命名・採否は概念自体の一般性・正確さ・出典で決め、「既存項目との対比が綺麗」などリポジトリ内の収まりを根拠にしない。経緯: [adr/20260608-prefer-established-general-naming](./adr/20260608-prefer-established-general-naming/README.md)
 - 過度に長くせず、1項目は読み切れる分量に保つ。
 
+## 変更履歴と Release
+
+利用者に影響する変更を含む PR では、[CHANGELOG.md](./CHANGELOG.md) の `Unreleased` も更新する。
+記載基準、PR ラベル、GitHub Release の公開手順は [docs/changelog.md](./docs/changelog.md) を参照する。
+経緯: [ADR: CHANGELOG.md と GitHub Releases を併用する](./adr/20260713-adopt-changelog-and-github-releases/README.md)
+
 ## 意思決定の記録（ADR）
 
 このリポジトリの構成・方針・分類などに関する **意思決定は必ず `adr/` に記録** します。
