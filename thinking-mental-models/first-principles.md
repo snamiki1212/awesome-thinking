@@ -1,5 +1,6 @@
 ---
 title: 第一原理思考
+id: AT-001
 slug: first-principles
 type: mental-model
 aliases: [First Principles Thinking, 第一原理, 原理原則思考]

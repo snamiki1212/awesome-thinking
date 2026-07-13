@@ -1,5 +1,6 @@
 ---
 title: SWOT分析
+id: AT-007
 slug: swot
 type: framework
 aliases: [SWOT Analysis]

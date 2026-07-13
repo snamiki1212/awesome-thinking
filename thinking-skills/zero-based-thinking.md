@@ -1,5 +1,6 @@
 ---
 title: ゼロベース思考
+id: AT-028
 slug: zero-based-thinking
 type: thinking-skill
 aliases: [Zero-Based Thinking, 白紙思考]

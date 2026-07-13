@@ -1,5 +1,6 @@
 ---
 title: 複利
+id: AT-003
 slug: compound-interest
 type: mental-model
 aliases: [Compound Interest, 複利効果, 雪だるま式]

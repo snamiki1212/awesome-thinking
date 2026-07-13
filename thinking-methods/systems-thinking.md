@@ -1,5 +1,6 @@
 ---
 title: システム思考
+id: AT-019
 slug: systems-thinking
 type: thinking-method
 aliases: [Systems Thinking, システムシンキング]

@@ -1,5 +1,6 @@
 ---
 title: イシュー思考
+id: AT-022
 slug: issue-driven
 type: thinking-method
 aliases: [イシューから始めよ, イシュードリブン, 論点思考, Issue-Driven, Issue Thinking]

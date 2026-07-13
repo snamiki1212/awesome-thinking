@@ -1,5 +1,6 @@
 ---
 title: なぜなぜ分析
+id: AT-013
 slug: 5-whys
 type: framework
 aliases: [5 Whys, なぜを5回, 5回のなぜ]

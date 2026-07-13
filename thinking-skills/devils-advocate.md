@@ -1,5 +1,6 @@
 ---
 title: 悪魔の代弁者
+id: AT-029
 slug: devils-advocate
 type: thinking-skill
 aliases: [Devil's Advocate, あえて反対する役]

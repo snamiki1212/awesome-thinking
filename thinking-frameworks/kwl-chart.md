@@ -1,5 +1,6 @@
 ---
 title: KWLチャート
+id: AT-014
 slug: kwl-chart
 type: framework
 aliases: [KWL Chart, KWL表, K-W-L, Know-Want-Learned]

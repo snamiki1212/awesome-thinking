@@ -1,5 +1,6 @@
 ---
 title: 地図は領土ではない
+id: AT-004
 slug: map-is-not-the-territory
 type: mental-model
 aliases: [The Map is Not the Territory, モデルと現実の区別]

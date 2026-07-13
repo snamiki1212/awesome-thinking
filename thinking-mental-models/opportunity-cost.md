@@ -1,5 +1,6 @@
 ---
 title: 機会費用
+id: AT-002
 slug: opportunity-cost
 type: mental-model
 aliases: [Opportunity Cost, 機会コスト]

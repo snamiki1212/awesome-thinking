@@ -1,5 +1,6 @@
 ---
 title: ラテラルシンキング
+id: AT-018
 slug: lateral-thinking
 type: thinking-method
 aliases: [Lateral Thinking, 水平思考]

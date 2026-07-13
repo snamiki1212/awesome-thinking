@@ -1,5 +1,6 @@
 ---
 title: 不確実性マネジメント
+id: AT-025
 slug: uncertainty-management
 type: thinking-method
 aliases: [Managing Uncertainty, Uncertainty Management, 不確実性の管理, エンジニアリング思考]

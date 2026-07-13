@@ -1,5 +1,6 @@
 ---
 title: アクティブリコール
+id: AT-035
 slug: active-recall
 type: thinking-skill
 aliases: [Active Recall, Retrieval Practice, 検索練習, ブラーティング, Blurting]

@@ -9,6 +9,7 @@
  *   - Concept（予約ファイル・除外パターンを除く .md）を 1 つ以上含むディレクトリ、
  *     または index.md を持つサブディレクトリを含むディレクトリに index.md を置く
  *   - 各エントリは frontmatter の title をリンクテキスト、description を説明に使う
+ *     思考ツールの詳細ファイルは id もリンクテキストの先頭に表示する
  *   - サブディレクトリのエントリは、その配下の README.md の frontmatter から引く。
  *     そのため index.md を置くディレクトリには README.md を必須とし、なければ fail する
  *   - ルートの index.md のみ `okf_version: "0.1"` を宣言する（OKF §11 の唯一の例外）
@@ -63,16 +64,16 @@ function scanDir(absDir, relDir, ignore) {
   return { relDir, concepts, subdirs, indexPaths };
 }
 
-/** Concept ファイルの frontmatter から title / description を引く（なければ空文字）。 */
+/** Concept ファイルの frontmatter から title / description / id を引く（なければ空文字）。 */
 function readMeta(relPath) {
   const abs = path.join(REPO_ROOT, relPath);
-  if (!fs.existsSync(abs)) return { title: '', description: '' };
+  if (!fs.existsSync(abs)) return { title: '', description: '', id: '' };
   const fm = parseFrontmatter(fs.readFileSync(abs, 'utf8'));
   const get = (key) => {
     const field = fm && fm.fields.get(key);
     return field && field.hasValue ? field.value : '';
   };
-  return { title: get('title'), description: get('description') };
+  return { title: get('title'), description: get('description'), id: get('id') };
 }
 
 /** 1 エントリを OKF §6 の形式（`* [Title](url) - description`）で書く。 */
@@ -86,16 +87,25 @@ function renderIndex(node) {
   if (node.relDir === '') lines.push('---', 'okf_version: "0.1"', '---', '');
   lines.push(GENERATED_MARKER, '', '# 目次', '');
 
-  // README.md はディレクトリの顔なので先頭に固定し、残りはファイル名順
-  const files = [...node.concepts].sort((a, b) =>
-    (a === 'README.md' ? -1 : b === 'README.md' ? 1 : a < b ? -1 : a > b ? 1 : 0)
-  );
+  // README.md はディレクトリの顔なので先頭に固定する。
+  // 思考ツールは ID 順、それ以外はファイル名順に並べる。
+  const files = [...node.concepts].sort((a, b) => {
+    if (a === 'README.md') return -1;
+    if (b === 'README.md') return 1;
+    const aMeta = readMeta(node.relDir ? `${node.relDir}/${a}` : a);
+    const bMeta = readMeta(node.relDir ? `${node.relDir}/${b}` : b);
+    if (aMeta.id && bMeta.id) return aMeta.id.localeCompare(bMeta.id);
+    if (aMeta.id) return -1;
+    if (bMeta.id) return 1;
+    return a < b ? -1 : a > b ? 1 : 0;
+  });
   if (files.length > 0) {
     lines.push('## ドキュメント', '');
     for (const name of files) {
       const rel = node.relDir ? `${node.relDir}/${name}` : name;
       const meta = readMeta(rel);
-      lines.push(renderEntry(meta.title || name.replace(/\.md$/, ''), `./${name}`, meta.description));
+      const title = meta.id ? `${meta.id} ${meta.title || name.replace(/\.md$/, '')}` : meta.title || name.replace(/\.md$/, '');
+      lines.push(renderEntry(title, `./${name}`, meta.description));
     }
     lines.push('');
   }

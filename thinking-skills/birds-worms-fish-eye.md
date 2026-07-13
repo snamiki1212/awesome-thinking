@@ -1,5 +1,6 @@
 ---
 title: 虫の目・鳥の目・魚の目
+id: AT-034
 slug: birds-worms-fish-eye
 type: thinking-skill
 aliases: [三つの目, 鳥の目・虫の目・魚の目, Bird's-eye Worm's-eye Fish's-eye View]

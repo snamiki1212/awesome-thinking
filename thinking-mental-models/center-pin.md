@@ -1,5 +1,6 @@
 ---
 title: センターピン
+id: AT-006
 slug: center-pin
 type: mental-model
 aliases: [センターピン理論, センターピン戦略, Center Pin]

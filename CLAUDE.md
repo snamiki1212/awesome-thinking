@@ -2,7 +2,7 @@
 type: guideline
 title: CLAUDE.md（エージェント向け作業方針）
 description: "このリポジトリで作業する際の方針を Claude などのコーディングエージェントに伝える指示書。"
-timestamp: 2026-07-13T14:00:00+09:00
+timestamp: 2026-07-13T16:30:00+09:00
 tags: [運用ルール]
 ---
 
@@ -43,6 +43,11 @@ tags: [運用ルール]
   - 例: `thinking-mental-models/first-principles.md`（本文タイトルは「第一原理思考」）
 - 4タイプのディレクトリ名は **`thinking-` prefix で統一**します（メインコンテンツを一覧で判別するため）。経緯: [adr/20260713-thinking-prefix-for-type-directories](./adr/20260713-thinking-prefix-for-type-directories/README.md)
 - スラッグには対応する日本語名を、各 Markdown のフロントマターと本文タイトルで必ず併記してください。
+
+## 思考ツールの ID
+
+思考ツールの詳細ファイルには、変更しない通し番号の `id` を付ける。
+採番・変更禁止・一覧表示の規則は [docs/thinking-ids.md](./docs/thinking-ids.md) を参照する。
 
 ## ディレクトリ構成
 

@@ -1,5 +1,6 @@
 ---
 title: パレートの法則
+id: AT-005
 slug: pareto-principle
 type: mental-model
 aliases: [Pareto Principle, 80:20の法則, ばらつきの偏り]
