@@ -3,6 +3,8 @@ title: クリティカルシンキング
 slug: critical-thinking
 type: thinking-method
 aliases: [Critical Thinking, 批判的思考]
+description: "「本当にそうか？」と前提や根拠を吟味し、思い込みを排して判断する流儀。"
+timestamp: 2026-06-08T13:51:22+09:00
 tags: [分析, 意思決定]
 ---
 

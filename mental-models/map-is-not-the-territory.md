@@ -3,6 +3,8 @@ title: 地図は領土ではない
 slug: map-is-not-the-territory
 type: mental-model
 aliases: [The Map is Not the Territory, モデルと現実の区別]
+description: "私たちが持つモデル・説明・データは現実そのものではなく、現実を簡略化した「地図」にすぎない、という見方。"
+timestamp: 2026-06-04T18:04:53+09:00
 tags: [分析, 意思決定]
 ---
 

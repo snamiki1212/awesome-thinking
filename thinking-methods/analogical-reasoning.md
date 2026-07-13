@@ -3,6 +3,8 @@ title: アナロジー思考
 slug: analogical-reasoning
 type: thinking-method
 aliases: [Analogical Reasoning, Reasoning by Analogy, 類推, アナロジー]
+description: "既知の物事（ベース）から「関係の構造」を抜き出し、別の物事（ターゲット）に写し取って理解・発想する流儀。"
+timestamp: 2026-06-08T15:19:03+09:00
 tags: [発想, 問題解決, 学習]
 ---
 

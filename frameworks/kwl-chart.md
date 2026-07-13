@@ -3,6 +3,8 @@ title: KWLチャート
 slug: kwl-chart
 type: framework
 aliases: [KWL Chart, KWL表, K-W-L, Know-Want-Learned]
+description: "あるテーマについて「K：すでに知っていること／W：知りたいこと／L：学んだこと」の3列を埋めて、学習の前・最中・後を一枚で整理する枠組み。"
+timestamp: 2026-06-08T17:29:19+09:00
 tags: [学習, 整理, 探究]
 ---
 

@@ -3,6 +3,8 @@ title: デザイン思考
 slug: design-thinking
 type: thinking-method
 aliases: [Design Thinking]
+description: "ユーザーへの共感を起点に、試作と検証を繰り返して解を磨く流儀。"
+timestamp: 2026-06-04T18:04:53+09:00
 tags: [発想, 問題解決, ユーザー]
 ---
 

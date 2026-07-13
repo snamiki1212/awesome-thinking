@@ -1,0 +1,21 @@
+name: lint-okf-at
+
+# required check (branch protection) のため paths フィルタは付けない。
+# フィルタ付きだと対象外の PR でチェックが起動せず「Expected」のまま merge がブロックされる。
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  okf-at:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      # 依存なしの純 Node スクリプト。ランナー既定の node で実行する。
+      # allowlist (scripts/lint-okf-at/allowlist.txt) に載る既存の非準拠ファイルは警告のみ。
+      # allowlist にない違反（新規ファイル等）は exit 1 で fail する。
+      # 正典 (SoT): 仕様 = docs/okf-at/README.md / 除外パターン = scripts/lint-okf-at/ignore.txt
+      - name: Markdown の OKF-AT frontmatter 準拠を検査
+        run: node scripts/lint-okf-at

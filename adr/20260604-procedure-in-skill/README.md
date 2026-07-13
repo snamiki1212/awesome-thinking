@@ -1,7 +1,10 @@
 ---
+type: adr
 title: 項目追加の手順・テンプレートはスキルを正本とする
-date: 2026-06-04
+description: "項目追加の手順・テンプレートの正本をスキル add-thinking-concept の1か所に集約し、CLAUDE.md からはポインタで参照する。"
+timestamp: 2026-06-04
 status: Accepted
+tags: [adr]
 ---
 
 # 項目追加の手順・テンプレートはスキルを正本とする

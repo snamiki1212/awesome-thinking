@@ -3,6 +3,8 @@ title: 思考実験
 slug: thought-experiment
 type: thinking-skill
 aliases: [Thought Experiment, Gedankenexperiment, 仮想実験]
+description: "実際には実験できない問いを、頭の中に仮想の状況を設定して「もしそうなら何が起きるか」を推論することで検討する技。"
+timestamp: 2026-06-05T16:00:21+09:00
 tags: [問題解決, 意思決定, 発想, 分析]
 ---
 

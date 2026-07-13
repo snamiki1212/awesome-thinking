@@ -1,3 +1,11 @@
+---
+type: guideline
+title: CLAUDE.md（エージェント向け作業方針）
+description: "このリポジトリで作業する際の方針を Claude などのコーディングエージェントに伝える指示書。"
+timestamp: 2026-07-13T00:00:00+09:00
+tags: [運用ルール]
+---
+
 # CLAUDE.md
 
 このファイルは、このリポジトリで作業する際の方針を Claude（および各種コーディングエージェント）に伝えるためのものです。
@@ -43,6 +51,8 @@
 README.md                  # トップの一覧（各ジャンルの一覧へのリンク）
 docs/taxonomy.md           # 4タイプの定義と違いの整理（＋収録の受け入れ要件）
 docs/out-of-scope.md       # 収録対象外（reject）リスト
+docs/okf-at/               # ナレッジ管理フォーマット OKF-AT の規約（正典）
+scripts/lint-okf-at/       # OKF-AT 準拠を検査する linter（CI・ローカル共用）
 mental-models/             # メンタルモデル
   README.md                # メンタルモデルの一覧
   <slug>.md                # 各項目の詳細
@@ -57,6 +67,12 @@ CLAUDE.md
 ```
 
 各タイプの定義は `docs/taxonomy.md` を正本とします。新しい項目を追加する前に必ず参照してください。
+
+## ナレッジ管理フォーマット（OKF-AT）
+
+リポジトリ内の Markdown は、OKF v0.1 ベースの独自プロファイル **OKF-AT** の frontmatter 規約に従います。
+規約の正典は [`docs/okf-at/README.md`](./docs/okf-at/README.md)、採用の経緯は [adr/20260713-adopt-okf-at-knowledge-format](./adr/20260713-adopt-okf-at-knowledge-format/README.md) を参照してください。
+準拠は CI（`lint-okf-at`）で検査されます。ローカルでは `node scripts/lint-okf-at` で確認できます。
 
 ## 一覧と詳細の関係
 
@@ -110,9 +126,12 @@ CLAUDE.md
 
 ```markdown
 ---
+type: adr
 title: 日本語タイトル
-date: yyyy-mm-dd
+description: "決定の1文要約"
+timestamp: yyyy-mm-dd
 status: Accepted | Rejected | Superseded by <adr-slug>
+tags: [adr]
 ---
 
 # 日本語タイトル

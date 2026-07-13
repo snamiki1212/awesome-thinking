@@ -1,7 +1,10 @@
 ---
+type: adr
 title: 4タイプを束ねる総称を「思考ツール（thinking tools）」とする
-date: 2026-06-04
+description: "4タイプを束ねる中間概念の総称を「思考ツール（thinking tools）」とし、リポジトリ全体の総称 thinking と役割を分ける。"
+timestamp: 2026-06-04
 status: Accepted
+tags: [adr]
 ---
 
 # 4タイプを束ねる総称を「思考ツール（thinking tools）」とする

@@ -3,6 +3,8 @@ title: 機会費用
 slug: opportunity-cost
 type: mental-model
 aliases: [Opportunity Cost, 機会コスト]
+description: "あるものを選ぶことは、選ばなかった他の選択肢から得られたはずの価値を捨てること、という見方。"
+timestamp: 2026-06-08T13:51:22+09:00
 tags: [意思決定]
 ---
 

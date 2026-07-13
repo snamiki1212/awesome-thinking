@@ -3,6 +3,8 @@ title: アクティブリコール
 slug: active-recall
 type: thinking-skill
 aliases: [Active Recall, Retrieval Practice, 検索練習, ブラーティング, Blurting]
+description: "資料を見ずに、知っていることを記憶から能動的に引き出して書き出し、あとで原典と照合する技。理解の穴がその場で見える。"
+timestamp: 2026-06-08T17:29:19+09:00
 tags: [学習, 記憶, メタ認知]
 ---
 

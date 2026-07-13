@@ -3,6 +3,8 @@ title: エッセンシャル思考
 slug: essentialism
 type: thinking-method
 aliases: [Essentialism, エッセンシャリズム, より少なく、しかしより良く]
+description: "「より少なく、しかしより良く（Less but better）」——本当に重要な少数を見極め、それ以外を削ぎ落とすことに集中する流儀。"
+timestamp: 2026-06-08T13:57:26+09:00
 tags: [意思決定, 優先順位付け, 生産性]
 ---
 
