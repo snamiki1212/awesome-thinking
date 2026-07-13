@@ -58,41 +58,41 @@ flowchart TB
 
 | ジャンル | 項目 | ひとこと |
 | --- | --- | --- |
-| 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md) | 前提を疑い、根本の事実まで遡って考え直す |
-| 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md) | 選ぶことは、選ばなかった価値を捨てること |
-| 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
-| 🧠 メンタルモデル | [地図は領土ではない](./thinking-mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
-| 🧠 メンタルモデル | [パレートの法則](./thinking-mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
-| 🧠 メンタルモデル | [センターピン](./thinking-mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
-| 🧩 思考フレームワーク | [SWOT分析](./thinking-frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
+| 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md)（First Principles Thinking） | 前提を疑い、根本の事実まで遡って考え直す |
+| 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md)（Opportunity Cost） | 選ぶことは、選ばなかった価値を捨てること |
+| 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md)（Compound Interest） | 成果が次の成果の土台になり、伸びが加速する |
+| 🧠 メンタルモデル | [地図は領土ではない](./thinking-mental-models/map-is-not-the-territory.md)（The Map is Not the Territory） | モデルやデータは現実そのものではない |
+| 🧠 メンタルモデル | [パレートの法則](./thinking-mental-models/pareto-principle.md)（Pareto Principle） | 成果の大部分はごく一部の要因から生まれる |
+| 🧠 メンタルモデル | [センターピン](./thinking-mental-models/center-pin.md)（Center Pin） | 倒せば残りも連鎖して倒れる急所の一点を狙う |
+| 🧩 思考フレームワーク | [SWOT分析](./thinking-frameworks/swot.md)（SWOT Analysis） | 強み・弱み・機会・脅威の4象限で現状を把握 |
 | 🧩 思考フレームワーク | [MECE](./thinking-frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
-| 🧩 思考フレームワーク | [ロジックツリー](./thinking-frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
+| 🧩 思考フレームワーク | [ロジックツリー](./thinking-frameworks/logic-tree.md)（Logic Tree） | テーマを木構造で階層的に分解する |
 | 🧩 思考フレームワーク | [5W1H](./thinking-frameworks/5w1h.md) | 6つの問いで情報の漏れを防ぐ |
-| 🧩 思考フレームワーク | [PDCAサイクル](./thinking-frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
+| 🧩 思考フレームワーク | [PDCAサイクル](./thinking-frameworks/pdca.md)（PDCA Cycle） | 計画→実行→評価→改善を回し続ける |
 | 🧩 思考フレームワーク | [KPT](./thinking-frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
-| 🧩 思考フレームワーク | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
-| 🧩 思考フレームワーク | [KWLチャート](./thinking-frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
-| 🧩 思考フレームワーク | [意思決定マトリクス](./thinking-frameworks/decision-matrix.md) | 選択肢を共通の評価基準で横並びに評価して決める |
-| 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
-| 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
-| 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
-| 🌊 思考法 | [システム思考](./thinking-methods/systems-thinking.md) | 要素のつながり・全体構造で捉える |
-| 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
-| 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
-| 🌊 思考法 | [イシュー思考](./thinking-methods/issue-driven.md) | 解く前に、本当に答えを出すべき問いを見極める |
-| 🌊 思考法 | [ネガティブ・ケイパビリティ](./thinking-methods/negative-capability.md) | 相反する見通し・不確実さを未解決のまま抱え続ける |
-| 🌊 思考法 | [エッセンシャル思考](./thinking-methods/essentialism.md) | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
-| 🌊 思考法 | [不確実性マネジメント](./thinking-methods/uncertainty-management.md) | 減らせる未知は情報を得て減らし、減らせない未知は引き受ける |
-| 🌊 思考法 | [アナロジー思考](./thinking-methods/analogical-reasoning.md) | 既知の構造を別領域に写して理解・発想する |
-| ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
-| ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
-| ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
-| ⚡ 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
-| ⚡ 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
-| ⚡ 思考術 | [命名](./thinking-skills/naming.md) | 名前のない事象に呼び名を与え、思考と会話で扱えるようにする |
-| ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md) | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
-| ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md) | 細部・全体・流れの3視点に切り替えて多面的に捉える |
-| ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md) | 見ずに思い出して書き出し、理解の穴を見つける |
+| 🧩 思考フレームワーク | [なぜなぜ分析](./thinking-frameworks/5-whys.md)（5 Whys） | 「なぜ」を繰り返して根本原因に迫る |
+| 🧩 思考フレームワーク | [KWLチャート](./thinking-frameworks/kwl-chart.md)（KWL Chart） | 知っている・知りたい・学んだの3列で学習を整理 |
+| 🧩 思考フレームワーク | [意思決定マトリクス](./thinking-frameworks/decision-matrix.md)（Decision Matrix） | 選択肢を共通の評価基準で横並びに評価して決める |
+| 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md)（Logical Thinking） | 主張と根拠を筋道立てて結びつける |
+| 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md)（Critical Thinking） | 前提や根拠を吟味し、思い込みを排する |
+| 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md)（Lateral Thinking） | 前提を飛び越えて新しい発想を生む |
+| 🌊 思考法 | [システム思考](./thinking-methods/systems-thinking.md)（Systems Thinking） | 要素のつながり・全体構造で捉える |
+| 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md)（Design Thinking） | 共感を起点に試作と検証で解を磨く |
+| 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md)（Hypothesis Thinking） | 仮の答えを立て、検証しながら進める |
+| 🌊 思考法 | [イシュー思考](./thinking-methods/issue-driven.md)（Issue-Driven） | 解く前に、本当に答えを出すべき問いを見極める |
+| 🌊 思考法 | [ネガティブ・ケイパビリティ](./thinking-methods/negative-capability.md)（Negative Capability） | 相反する見通し・不確実さを未解決のまま抱え続ける |
+| 🌊 思考法 | [エッセンシャル思考](./thinking-methods/essentialism.md)（Essentialism） | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
+| 🌊 思考法 | [不確実性マネジメント](./thinking-methods/uncertainty-management.md)（Managing Uncertainty） | 減らせる未知は情報を得て減らし、減らせない未知は引き受ける |
+| 🌊 思考法 | [アナロジー思考](./thinking-methods/analogical-reasoning.md)（Analogical Reasoning） | 既知の構造を別領域に写して理解・発想する |
+| ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md)（Abstraction and Concretization） | 本質を抜き出し、別の場面に当てはめ直す |
+| ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md)（Zero-Based Thinking） | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
+| ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md)（Devil's Advocate） | あえて反対役になり、弱点をあぶり出す |
+| ⚡ 思考術 | [リフレーミング](./thinking-skills/reframing.md)（Reframing） | 同じ事実を別の枠組みから捉え直す |
+| ⚡ 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md)（Extreme Case Thinking） | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
+| ⚡ 思考術 | [命名](./thinking-skills/naming.md)（Naming） | 名前のない事象に呼び名を与え、思考と会話で扱えるようにする |
+| ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md)（Thought Experiment） | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
+| ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md)（Bird's-eye, Worm's-eye, and Fish's-eye View） | 細部・全体・流れの3視点に切り替えて多面的に捉える |
+| ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md)（Active Recall） | 見ずに思い出して書き出し、理解の穴を見つける |
 
 ## ディレクトリ構成
 

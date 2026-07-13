@@ -27,3 +27,4 @@
 * [README の一覧列挙は index.md に委ねる（トップ README を除く）](./20260713-readme-delegates-listing-to-index/) - README.md には配下の一覧を列挙せず index.md へのリンクを置き、コアコンテンツであるトップ README の一覧だけを手書きで維持すると定める。
 * [手書き文書には規則だけを書き、実体の列挙は index.md に委ねる](./20260713-rules-not-inventory/) - CLAUDE.md・トップ README の「ディレクトリ構成」節から増減する実体の列挙を除き、配置の規則だけを書くと定める。
 * [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/) - メインコンテンツの4タイプを一覧で判別できるよう、ディレクトリ名を thinking- prefix で統一すると定めた記録。
+* [英語名など多言語の正式名を frontmatter の titles で管理する](./20260713-titles-frontmatter-for-multilingual-names/) - 多言語の正式名を frontmatter の拡張フィールド titles（言語コード→名称のマップ）で管理し、トップ README の一覧に英語名を併記する。

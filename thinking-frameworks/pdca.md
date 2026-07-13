@@ -1,8 +1,10 @@
 ---
 title: PDCAサイクル
+titles:
+  en: PDCA Cycle
 slug: pdca
 type: framework
-aliases: [PDCA Cycle, Plan Do Check Act]
+aliases: [Plan Do Check Act]
 description: "計画→実行→評価→改善を回し続け、継続的に良くしていく枠組み。"
 timestamp: 2026-07-13T14:50:00+09:00
 tags: [改善, 実行]

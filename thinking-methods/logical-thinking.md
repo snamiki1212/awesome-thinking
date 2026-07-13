@@ -1,14 +1,16 @@
 ---
 title: ロジカルシンキング
+titles:
+  en: Logical Thinking
 slug: logical-thinking
 type: thinking-method
-aliases: [Logical Thinking, 論理的思考]
+aliases: [論理的思考]
 description: "主張と根拠を筋道立てて結びつけ、誰が見ても納得できる形で考える流儀。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 伝達, 分析]
 ---
 
-# ロジカルシンキング（論理的思考）
+# ロジカルシンキング（Logical Thinking）
 
 ## 一言でいうと
 主張と根拠を筋道立てて結びつけ、誰が見ても納得できる形で考える流儀。

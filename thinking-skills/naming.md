@@ -1,8 +1,10 @@
 ---
 title: 命名
+titles:
+  en: Naming
 slug: naming
 type: thinking-skill
-aliases: [ネーミング, ラベリング, Naming, Labeling]
+aliases: [ネーミング, ラベリング, Labeling]
 description: "名前のない事象・概念に名前をつけることで、それを「掴める対象」に変え、思考と会話のなかで安定して扱えるようにする技。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [伝達, 問題解決, 思考整理]
