@@ -28,5 +28,6 @@ tags: [一覧, adr]
 | 2026-07-13 | [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/README.md) | Accepted（採用） |
 | 2026-07-13 | [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/README.md) | Accepted（採用） |
 | 2026-07-13 | [関連セクションのリンクを Markdown リンクに統一する](./20260713-markdown-links-for-related-sections/README.md) | Accepted（採用） |
+| 2026-07-13 | [詳細ファイルに任意の「図解」節を設け、mermaid で図示する](./20260713-optional-diagram-section/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)

@@ -4,7 +4,7 @@ slug: swot
 type: framework
 aliases: [SWOT Analysis]
 description: "強み・弱み・機会・脅威の4象限に情報を整理し、戦略の現状を把握する枠組み。"
-timestamp: 2026-07-13T00:00:00+09:00
+timestamp: 2026-07-13T14:50:00+09:00
 tags: [分析, 意思決定, 戦略]
 ---
 
@@ -15,6 +15,19 @@ tags: [分析, 意思決定, 戦略]
 
 ## 定義
 内部要因（Strengths 強み / Weaknesses 弱み）と外部要因（Opportunities 機会 / Threats 脅威）の4つに情報を分類して、置かれた状況を俯瞰するフレームワーク。
+
+## 図解
+横軸に内部か外部か、縦軸にプラスに働くかマイナスに働くかを取ると、4象限がそのまま S/W/O/T に対応する。
+
+```mermaid
+quadrantChart
+    x-axis 内部要因 --> 外部要因
+    y-axis マイナスに働く --> プラスに働く
+    quadrant-1 機会 Opportunities
+    quadrant-2 強み Strengths
+    quadrant-3 弱み Weaknesses
+    quadrant-4 脅威 Threats
+```
 
 ## 使いどころ
 - 事業・プロダクト・個人のキャリアなどの現状分析。

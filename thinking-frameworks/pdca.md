@@ -4,7 +4,7 @@ slug: pdca
 type: framework
 aliases: [PDCA Cycle, Plan Do Check Act]
 description: "計画→実行→評価→改善を回し続け、継続的に良くしていく枠組み。"
-timestamp: 2026-07-13T00:00:00+09:00
+timestamp: 2026-07-13T14:50:00+09:00
 tags: [改善, 実行]
 ---
 
@@ -15,6 +15,17 @@ tags: [改善, 実行]
 
 ## 定義
 Plan（計画）/ Do（実行）/ Check（評価）/ Act（改善）の4段階を繰り返すマネジメントサイクル。各周回で学びを次の計画に反映する。
+
+## 図解
+4段階は一巡で終わりではなく、Act の学びを次の Plan に渡して回し続ける。
+
+```mermaid
+flowchart LR
+    P["Plan<br/>計画"] --> D["Do<br/>実行"]
+    D --> C["Check<br/>評価"]
+    C --> A["Act<br/>改善"]
+    A -- 学びを次の計画へ --> P
+```
 
 ## 使いどころ
 - 業務・習慣・施策を継続的に改善したいとき。
