@@ -4,7 +4,7 @@ slug: compound-interest
 type: mental-model
 aliases: [Compound Interest, 複利効果, 雪だるま式]
 description: "成果が次の成果の土台になり、積み重なるほど伸びが加速する、という見方。"
-timestamp: 2026-06-04T18:11:35+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 学習]
 ---
 
@@ -40,5 +40,5 @@ tags: [意思決定, 学習]
 - **指数関数的成長（Exponential Growth）** — 複利は指数関数的成長を生む仕組みの一つ。指数成長は結果の形（曲線）を指し、複利はそれを生む原因の一つという関係。
 
 ## 関連
-- [[pareto-principle]]（パレートの法則）
-- [[systems-thinking]]（システム思考）— フィードバックループとして捉えられる。
+- [pareto-principle](./pareto-principle.md)（パレートの法則）
+- [systems-thinking](../thinking-methods/systems-thinking.md)（システム思考）— フィードバックループとして捉えられる。

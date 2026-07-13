@@ -4,7 +4,7 @@ slug: logical-thinking
 type: thinking-method
 aliases: [Logical Thinking, 論理的思考]
 description: "主張と根拠を筋道立てて結びつけ、誰が見ても納得できる形で考える流儀。"
-timestamp: 2026-06-04T18:04:53+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 伝達, 分析]
 ---
 
@@ -36,6 +36,6 @@ tags: [問題解決, 伝達, 分析]
 - 正しさにこだわりすぎて、新しい発想（ラテラルシンキング）を潰さない。
 
 ## 関連
-- [[critical-thinking]]（クリティカルシンキング）
-- [[lateral-thinking]]（ラテラルシンキング）
-- [[mece]]（MECE） / [[logic-tree]]（ロジックツリー）— 代表的な道具。
+- [critical-thinking](./critical-thinking.md)（クリティカルシンキング）
+- [lateral-thinking](./lateral-thinking.md)（ラテラルシンキング）
+- [mece](../thinking-frameworks/mece.md)（MECE） / [logic-tree](../thinking-frameworks/logic-tree.md)（ロジックツリー）— 代表的な道具。

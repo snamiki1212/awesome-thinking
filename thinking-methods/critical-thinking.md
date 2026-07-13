@@ -4,7 +4,7 @@ slug: critical-thinking
 type: thinking-method
 aliases: [Critical Thinking, 批判的思考]
 description: "「本当にそうか？」と前提や根拠を吟味し、思い込みを排して判断する流儀。"
-timestamp: 2026-06-08T13:51:22+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [分析, 意思決定]
 ---
 
@@ -36,8 +36,8 @@ tags: [分析, 意思決定]
 - 否定的な態度と混同しない。目的はより良い判断。
 
 ## 関連
-- [[logical-thinking]]（ロジカルシンキング）— 論理の正しさを支える。
-- [[devils-advocate]]（悪魔の代弁者）— 実践的な技として使える。
-- [[map-is-not-the-territory]]（地図は領土ではない）
-- [[negative-capability]]（ネガティブ・ケイパビリティ）— 性急な結論を保留する構えとして併用しやすい。
-- [[essentialism]]（エッセンシャル思考）— 「これは本当に重要か」と前提を吟味する姿勢が重なる。
+- [logical-thinking](./logical-thinking.md)（ロジカルシンキング）— 論理の正しさを支える。
+- [devils-advocate](../thinking-skills/devils-advocate.md)（悪魔の代弁者）— 実践的な技として使える。
+- [map-is-not-the-territory](../thinking-mental-models/map-is-not-the-territory.md)（地図は領土ではない）
+- [negative-capability](./negative-capability.md)（ネガティブ・ケイパビリティ）— 性急な結論を保留する構えとして併用しやすい。
+- [essentialism](./essentialism.md)（エッセンシャル思考）— 「これは本当に重要か」と前提を吟味する姿勢が重なる。

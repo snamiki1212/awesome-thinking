@@ -4,7 +4,7 @@ slug: extreme-case-thinking
 type: thinking-skill
 aliases: [極端な例で考える, 極端ケース思考, Extreme Case Thinking]
 description: "ある変数や前提をあえて両極端まで振り切って考え、極端な状況での結果から本質や効きどころを浮かび上がらせる技。"
-timestamp: 2026-06-05T18:25:10+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定, 発想]
 ---
 
@@ -43,9 +43,9 @@ tags: [問題解決, 意思決定, 発想]
 - **悪魔の代弁者（Devil's Advocate）** — あえて非現実的な立場を取る点で似るが、悪魔の代弁者は反対意見で弱点を突くもの、極端思考は両極端を比べて構造・限界を見るもの。
 
 ## 関連
-- [[zero-based-thinking]]（ゼロベース思考）— 前提を外す思考実験として併用しやすい
-- [[devils-advocate]]（悪魔の代弁者）— 極端な立場を意図的に取る点で近い
-- [[hypothesis-thinking]]（仮説思考）— 「答えを先に置く」点で対比すると違いが分かりやすい
-- [[first-principles]]（第一原理思考）— 極端を考えると本質的な要素が見えやすい
-- [[thought-experiment]]（思考実験）— 極端思考はその一変種（変数を両極端に振る型）
-- [[negative-capability]]（ネガティブ・ケイパビリティ）— 「最悪が起きたら」を振り切り、失敗側のストーリーを具体化するのに役立つ
+- [zero-based-thinking](./zero-based-thinking.md)（ゼロベース思考）— 前提を外す思考実験として併用しやすい
+- [devils-advocate](./devils-advocate.md)（悪魔の代弁者）— 極端な立場を意図的に取る点で近い
+- [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）— 「答えを先に置く」点で対比すると違いが分かりやすい
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）— 極端を考えると本質的な要素が見えやすい
+- [thought-experiment](./thought-experiment.md)（思考実験）— 極端思考はその一変種（変数を両極端に振る型）
+- [negative-capability](../thinking-methods/negative-capability.md)（ネガティブ・ケイパビリティ）— 「最悪が起きたら」を振り切り、失敗側のストーリーを具体化するのに役立つ

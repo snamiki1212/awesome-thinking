@@ -4,7 +4,7 @@ slug: 5-whys
 type: framework
 aliases: [5 Whys, なぜを5回, 5回のなぜ]
 description: "「なぜ？」を繰り返して、表面的な現象から根本原因まで掘り下げる枠組み。"
-timestamp: 2026-06-05T18:04:21+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 分析]
 ---
 
@@ -40,5 +40,5 @@ tags: [問題解決, 分析]
 - **5 Whys（Five Whys）** — 同じ手法を指す別名で、内容は同一。本リポジトリでは1項目として扱う。強いて言えば「5 Whys」は**回数（なぜを5回問う）**を、「なぜなぜ分析」は**動作（なぜを繰り返す）**を呼び名の前面に出している、というニュアンスの差があるだけ。いずれも「5回」は目安で固定ではない。
 
 ## 関連
-- [[logic-tree]]（ロジックツリー）— 原因が分岐する場合に併用。
-- [[hypothesis-thinking]]（仮説思考）
+- [logic-tree](./logic-tree.md)（ロジックツリー）— 原因が分岐する場合に併用。
+- [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）
