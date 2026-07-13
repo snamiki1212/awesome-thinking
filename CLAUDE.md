@@ -77,7 +77,7 @@ CLAUDE.md
 規約の正典は [`docs/okf-at/README.md`](./docs/okf-at/README.md)、採用の経緯は [adr/20260713-adopt-okf-at-knowledge-format](./adr/20260713-adopt-okf-at-knowledge-format/README.md) を参照してください。
 準拠は CI（`lint-okf-at`）で検査されます。ローカルでは `node scripts/lint-okf-at` で確認できます。
 
-各ディレクトリの `index.md`（OKF の目次）は自動生成物です。手で編集せず、Markdown の追加・改名・削除や frontmatter の `title` / `description` を変更したら `node scripts/gen-okf-index` で再生成してください（最新かどうかは CI が検査します）。経緯: [adr/20260713-generate-okf-index](./adr/20260713-generate-okf-index/README.md)
+各ディレクトリの `index.md`（OKF の目次）は自動生成物です。手で編集せず、Markdown の追加・改名・削除や frontmatter の `title` / `description` を変更したら `node scripts/gen-okf-index` で再生成してください（最新かどうかは CI が検査します）。`index.md` を置くディレクトリには、サブディレクトリの説明の引用元となる `README.md` が必須です（欠けていると同ツールが fail します）。経緯: [adr/20260713-generate-okf-index](./adr/20260713-generate-okf-index/README.md)
 
 ## 一覧と詳細の関係
 

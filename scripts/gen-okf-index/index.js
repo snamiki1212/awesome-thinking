@@ -9,7 +9,8 @@
  *   - Concept（予約ファイル・除外パターンを除く .md）を 1 つ以上含むディレクトリ、
  *     または index.md を持つサブディレクトリを含むディレクトリに index.md を置く
  *   - 各エントリは frontmatter の title をリンクテキスト、description を説明に使う
- *   - サブディレクトリのエントリは、その配下の README.md の frontmatter から引く
+ *   - サブディレクトリのエントリは、その配下の README.md の frontmatter から引く。
+ *     そのため index.md を置くディレクトリには README.md を必須とし、なければ fail する
  *   - ルートの index.md のみ `okf_version: "0.1"` を宣言する（OKF §11 の唯一の例外）
  *   - 出力はファイルツリーと frontmatter だけから決まる（日時等を含めず、冪等）
  *
@@ -110,11 +111,10 @@ function renderIndex(node) {
   return lines.join('\n');
 }
 
-/** 目次を置くべき全ディレクトリの { 相対パス → 内容 } を集める。 */
-function collectExpected(node, out) {
-  const indexPath = node.relDir ? `${node.relDir}/index.md` : 'index.md';
-  out.set(indexPath, renderIndex(node));
-  for (const sub of node.subdirs) collectExpected(sub, out);
+/** 目次を置くべき全ディレクトリのノードを平坦に集める。 */
+function flattenNodes(node, out) {
+  out.push(node);
+  for (const sub of node.subdirs) flattenNodes(sub, out);
   return out;
 }
 
@@ -126,7 +126,16 @@ function main() {
   }
   const ignore = loadIgnorePatterns(IGNORE_PATH);
   const root = scanDir(REPO_ROOT, '', ignore);
-  const expected = collectExpected(root, new Map());
+  const nodes = flattenNodes(root, []);
+  const expected = new Map(
+    nodes.map((node) => [node.relDir ? `${node.relDir}/index.md` : 'index.md', renderIndex(node)])
+  );
+
+  // サブディレクトリのエントリの表示名・説明は配下の README.md から引くため、
+  // 目次を置くディレクトリには README.md を必須とする（説明の欠けた目次を作らない）
+  const missingReadme = nodes
+    .filter((node) => !node.concepts.includes('README.md'))
+    .map((node) => node.relDir || '(ルート)');
 
   const stale = []; // 期待と内容が違う・存在しない
   const orphans = []; // 目次を置く理由がなくなった生成物
@@ -157,11 +166,17 @@ function main() {
         '生成対象のディレクトリなら再生成で上書き、そうでなければ手で削除してください'
     );
   }
+  for (const dir of missingReadme) {
+    console.error(
+      `❌ ${dir} に README.md がない（目次を置くディレクトリには必須。仕様: docs/okf-at/README.md）。` +
+        'title / description を持つ README.md を書いてから再生成してください'
+    );
+  }
   if (check) {
     for (const relPath of stale) console.error(`❌ ${relPath} が最新でない`);
     for (const relPath of orphans) console.error(`❌ ${relPath} は不要（目次を置く対象のディレクトリでない）`);
     console.log(`\n目次 ${expected.size} 件 / 要更新 ${stale.length} 件 / 不要 ${orphans.length} 件`);
-    if (stale.length > 0 || orphans.length > 0 || handwritten.length > 0) {
+    if (stale.length > 0 || orphans.length > 0 || handwritten.length > 0 || missingReadme.length > 0) {
       if (stale.length > 0 || orphans.length > 0) {
         console.error('\n`node scripts/gen-okf-index` を実行して index.md を再生成してください');
       }
@@ -171,6 +186,8 @@ function main() {
     for (const relPath of stale) console.log(`✏️  ${relPath} を更新`);
     for (const relPath of orphans) console.log(`🗑️  ${relPath} を削除`);
     console.log(`\n目次 ${expected.size} 件 / 更新 ${stale.length} 件 / 削除 ${orphans.length} 件`);
+    // README.md の欠落は再生成では直らないので、生成モードでも fail させて気付かせる
+    if (missingReadme.length > 0) process.exit(1);
   }
 }
 

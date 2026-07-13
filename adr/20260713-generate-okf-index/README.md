@@ -26,6 +26,7 @@ Accepted（採用）
 
 - Concept を含むすべてのディレクトリ（と、そうしたディレクトリを配下に持つディレクトリ）に `index.md` を置く。例外規則は持たない
 - 各エントリは OKF §6 の形式（`* [Title](url) - description`）で書き、リンク先 frontmatter の `title` / `description` を使う。サブディレクトリのエントリは配下の `README.md` から引く
+- `index.md` を置くディレクトリには `README.md` を必須とし、欠けていればツールが fail する。サブディレクトリのエントリの表示名と説明は README.md から引くため、これがないと説明の欠けた目次ができる（description の中身は既存の linter が必須検査するので、ツールは存在だけを検査する）
 - ルートの `index.md` のみ、OKF §11 に従い frontmatter で `okf_version: "0.1"` を宣言する
 - 出力はファイルツリーと frontmatter だけから決まる（日時等を含めず、何度実行しても同じ結果になる）
 - 再生成は作業者（主に Claude などのエージェント）が `node scripts/gen-okf-index` で明示的に実行し、CI が `--check` で最新かを検査する
@@ -49,6 +50,7 @@ Accepted（採用）
 
 ## 影響
 
-- 生成された `index.md` がリポジトリ全体にコミットされる（導入時点で 22 件）
+- 生成された `index.md` がリポジトリ全体にコミットされる（導入時点で 23 件）
+- 新しいディレクトリを作るときは、`title` / `description` を持つ `README.md` を必ず添える（導入時点で欠けていた `docs/README.md` は本決定にあわせて作成した）
 - Markdown の追加・改名・削除、または frontmatter の `title` / `description` の変更をしたら、`node scripts/gen-okf-index` での再生成が必要になる。忘れると CI（`lint-okf-at` workflow の `--check` ステップ）が fail する
 - 生成規則の記述は [docs/okf-at/README.md](../../docs/okf-at/README.md) の「index.md の自動生成」節が正典になる

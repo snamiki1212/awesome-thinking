@@ -101,7 +101,8 @@ Concept を含むすべてのディレクトリ（と、そうしたディレク
 生成規則は次のとおり。経緯は [ADR: OKF の目次 index.md をツールで自動生成する](../../adr/20260713-generate-okf-index/README.md) を参照。
 
 - 各エントリは OKF §6 の形式（`* [Title](url) - description`）で書き、リンク先 frontmatter の `title` と `description` を使う
-- サブディレクトリのエントリは、その配下の `README.md` の frontmatter から引く（なければディレクトリ名のみ）
+- サブディレクトリのエントリは、その配下の `README.md` の frontmatter から引く
+- そのため、`index.md` を置くディレクトリには `README.md` を必須とする。欠けているとサブディレクトリのエントリに説明を入れられないため、ツールが検査して fail する
 - 出力はファイルツリーと frontmatter だけから決まり、何度実行しても同じ結果になる
 
 Markdown の追加・改名・削除や `title` / `description` の変更をしたら、`node scripts/gen-okf-index` で再生成する。
