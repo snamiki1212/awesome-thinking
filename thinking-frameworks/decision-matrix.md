@@ -1,6 +1,6 @@
 ---
 title: 意思決定マトリクス
-id: AT-015
+id: AT-0015
 slug: decision-matrix
 type: framework
 aliases: [Decision Matrix, 評価マトリクス, デシジョンマトリクス]

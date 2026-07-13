@@ -1,6 +1,6 @@
 ---
 title: ロジカルシンキング
-id: AT-016
+id: AT-0016
 slug: logical-thinking
 type: thinking-method
 aliases: [Logical Thinking, 論理的思考]

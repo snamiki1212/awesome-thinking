@@ -1,6 +1,6 @@
 ---
 title: 極端思考
-id: AT-031
+id: AT-0031
 slug: extreme-case-thinking
 type: thinking-skill
 aliases: [極端な例で考える, 極端ケース思考, Extreme Case Thinking]

@@ -1,6 +1,6 @@
 ---
 title: リフレーミング
-id: AT-030
+id: AT-0030
 slug: reframing
 type: thinking-skill
 aliases: [Reframing, 枠組みの捉え直し]

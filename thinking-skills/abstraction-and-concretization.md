@@ -1,6 +1,6 @@
 ---
 title: 抽象化と具体化
-id: AT-027
+id: AT-0027
 slug: abstraction-and-concretization
 type: thinking-skill
 aliases: [Abstraction and Concretization, 抽象と具体の往復]

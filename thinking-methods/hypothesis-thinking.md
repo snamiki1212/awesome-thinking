@@ -1,6 +1,6 @@
 ---
 title: 仮説思考
-id: AT-021
+id: AT-0021
 slug: hypothesis-thinking
 type: thinking-method
 aliases: [Hypothesis Thinking, 仮説driven]

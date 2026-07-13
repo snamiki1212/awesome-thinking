@@ -1,6 +1,6 @@
 ---
 title: ロジックツリー
-id: AT-009
+id: AT-0009
 slug: logic-tree
 type: framework
 aliases: [Logic Tree, 階層分解, ツリー分析]

@@ -1,6 +1,6 @@
 ---
 title: KPT
-id: AT-012
+id: AT-0012
 slug: kpt
 type: framework
 aliases: [KPT, Keep Problem Try, 振り返り]

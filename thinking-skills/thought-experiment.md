@@ -1,6 +1,6 @@
 ---
 title: 思考実験
-id: AT-033
+id: AT-0033
 slug: thought-experiment
 type: thinking-skill
 aliases: [Thought Experiment, Gedankenexperiment, 仮想実験]

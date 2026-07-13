@@ -1,6 +1,6 @@
 ---
 title: PDCAサイクル
-id: AT-011
+id: AT-0011
 slug: pdca
 type: framework
 aliases: [PDCA Cycle, Plan Do Check Act]

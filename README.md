@@ -10,7 +10,7 @@ tags: [一覧]
 
 「思考」の知識 — **メンタルモデル・思考フレームワーク・思考法・思考術** — を集めて整理するリポジトリです。4タイプの違いを定義し、項目ごとに Markdown でまとめています。
 
-各思考ツールには、名前や配置が変わっても変えない `AT-001` 形式の ID を付けています。
+各思考ツールには、名前や配置が変わっても変えない `AT-0001` 形式の ID を付けています。
 
 ## 4タイプの違い
 
@@ -60,41 +60,41 @@ flowchart TB
 
 | ID | ジャンル | 項目 | ひとこと |
 | --- | --- | --- | --- |
-| AT-001 | 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md) | 前提を疑い、根本の事実まで遡って考え直す |
-| AT-002 | 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md) | 選ぶことは、選ばなかった価値を捨てること |
-| AT-003 | 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
-| AT-004 | 🧠 メンタルモデル | [地図は領土ではない](./thinking-mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
-| AT-005 | 🧠 メンタルモデル | [パレートの法則](./thinking-mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
-| AT-006 | 🧠 メンタルモデル | [センターピン](./thinking-mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
-| AT-007 | 🧩 思考フレームワーク | [SWOT分析](./thinking-frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
-| AT-008 | 🧩 思考フレームワーク | [MECE](./thinking-frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
-| AT-009 | 🧩 思考フレームワーク | [ロジックツリー](./thinking-frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
-| AT-010 | 🧩 思考フレームワーク | [5W1H](./thinking-frameworks/5w1h.md) | 6つの問いで情報の漏れを防ぐ |
-| AT-011 | 🧩 思考フレームワーク | [PDCAサイクル](./thinking-frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
-| AT-012 | 🧩 思考フレームワーク | [KPT](./thinking-frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
-| AT-013 | 🧩 思考フレームワーク | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
-| AT-014 | 🧩 思考フレームワーク | [KWLチャート](./thinking-frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
-| AT-015 | 🧩 思考フレームワーク | [意思決定マトリクス](./thinking-frameworks/decision-matrix.md) | 選択肢を共通の評価基準で横並びに評価して決める |
-| AT-016 | 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
-| AT-017 | 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
-| AT-018 | 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
-| AT-019 | 🌊 思考法 | [システム思考](./thinking-methods/systems-thinking.md) | 要素のつながり・全体構造で捉える |
-| AT-020 | 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
-| AT-021 | 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
-| AT-022 | 🌊 思考法 | [イシュー思考](./thinking-methods/issue-driven.md) | 解く前に、本当に答えを出すべき問いを見極める |
-| AT-023 | 🌊 思考法 | [ネガティブ・ケイパビリティ](./thinking-methods/negative-capability.md) | 相反する見通し・不確実さを未解決のまま抱え続ける |
-| AT-024 | 🌊 思考法 | [エッセンシャル思考](./thinking-methods/essentialism.md) | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
-| AT-025 | 🌊 思考法 | [不確実性マネジメント](./thinking-methods/uncertainty-management.md) | 減らせる未知は情報を得て減らし、減らせない未知は引き受ける |
-| AT-026 | 🌊 思考法 | [アナロジー思考](./thinking-methods/analogical-reasoning.md) | 既知の構造を別領域に写して理解・発想する |
-| AT-027 | ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
-| AT-028 | ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
-| AT-029 | ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
-| AT-030 | ⚡ 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
-| AT-031 | ⚡ 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
-| AT-032 | ⚡ 思考術 | [命名](./thinking-skills/naming.md) | 名前のない事象に呼び名を与え、思考と会話で扱えるようにする |
-| AT-033 | ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md) | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
-| AT-034 | ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md) | 細部・全体・流れの3視点に切り替えて多面的に捉える |
-| AT-035 | ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md) | 見ずに思い出して書き出し、理解の穴を見つける |
+| AT-0001 | 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md) | 前提を疑い、根本の事実まで遡って考え直す |
+| AT-0002 | 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md) | 選ぶことは、選ばなかった価値を捨てること |
+| AT-0003 | 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
+| AT-0004 | 🧠 メンタルモデル | [地図は領土ではない](./thinking-mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
+| AT-0005 | 🧠 メンタルモデル | [パレートの法則](./thinking-mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
+| AT-0006 | 🧠 メンタルモデル | [センターピン](./thinking-mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
+| AT-0007 | 🧩 思考フレームワーク | [SWOT分析](./thinking-frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
+| AT-0008 | 🧩 思考フレームワーク | [MECE](./thinking-frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
+| AT-0009 | 🧩 思考フレームワーク | [ロジックツリー](./thinking-frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
+| AT-0010 | 🧩 思考フレームワーク | [5W1H](./thinking-frameworks/5w1h.md) | 6つの問いで情報の漏れを防ぐ |
+| AT-0011 | 🧩 思考フレームワーク | [PDCAサイクル](./thinking-frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
+| AT-0012 | 🧩 思考フレームワーク | [KPT](./thinking-frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
+| AT-0013 | 🧩 思考フレームワーク | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
+| AT-0014 | 🧩 思考フレームワーク | [KWLチャート](./thinking-frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
+| AT-0015 | 🧩 思考フレームワーク | [意思決定マトリクス](./thinking-frameworks/decision-matrix.md) | 選択肢を共通の評価基準で横並びに評価して決める |
+| AT-0016 | 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
+| AT-0017 | 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
+| AT-0018 | 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
+| AT-0019 | 🌊 思考法 | [システム思考](./thinking-methods/systems-thinking.md) | 要素のつながり・全体構造で捉える |
+| AT-0020 | 🌊 思考法 | [デザイン思考](./thinking-methods/design-thinking.md) | 共感を起点に試作と検証で解を磨く |
+| AT-0021 | 🌊 思考法 | [仮説思考](./thinking-methods/hypothesis-thinking.md) | 仮の答えを立て、検証しながら進める |
+| AT-0022 | 🌊 思考法 | [イシュー思考](./thinking-methods/issue-driven.md) | 解く前に、本当に答えを出すべき問いを見極める |
+| AT-0023 | 🌊 思考法 | [ネガティブ・ケイパビリティ](./thinking-methods/negative-capability.md) | 相反する見通し・不確実さを未解決のまま抱え続ける |
+| AT-0024 | 🌊 思考法 | [エッセンシャル思考](./thinking-methods/essentialism.md) | 本当に重要な少数を見極め、それ以外を削ぎ落として集中する |
+| AT-0025 | 🌊 思考法 | [不確実性マネジメント](./thinking-methods/uncertainty-management.md) | 減らせる未知は情報を得て減らし、減らせない未知は引き受ける |
+| AT-0026 | 🌊 思考法 | [アナロジー思考](./thinking-methods/analogical-reasoning.md) | 既知の構造を別領域に写して理解・発想する |
+| AT-0027 | ⚡ 思考術 | [抽象化と具体化](./thinking-skills/abstraction-and-concretization.md) | 本質を抜き出し、別の場面に当てはめ直す |
+| AT-0028 | ⚡ 思考術 | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | 前提を白紙に戻し「今ゼロから始めるなら」と考える |
+| AT-0029 | ⚡ 思考術 | [悪魔の代弁者](./thinking-skills/devils-advocate.md) | あえて反対役になり、弱点をあぶり出す |
+| AT-0030 | ⚡ 思考術 | [リフレーミング](./thinking-skills/reframing.md) | 同じ事実を別の枠組みから捉え直す |
+| AT-0031 | ⚡ 思考術 | [極端思考](./thinking-skills/extreme-case-thinking.md) | 変数を両極端まで振り切り、本質や効きどころを浮かび上がらせる |
+| AT-0032 | ⚡ 思考術 | [命名](./thinking-skills/naming.md) | 名前のない事象に呼び名を与え、思考と会話で扱えるようにする |
+| AT-0033 | ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md) | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
+| AT-0034 | ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md) | 細部・全体・流れの3視点に切り替えて多面的に捉える |
+| AT-0035 | ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md) | 見ずに思い出して書き出し、理解の穴を見つける |
 
 ## ディレクトリ構成
 

@@ -1,6 +1,6 @@
 ---
 title: クリティカルシンキング
-id: AT-017
+id: AT-0017
 slug: critical-thinking
 type: thinking-method
 aliases: [Critical Thinking, 批判的思考]

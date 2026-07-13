@@ -1,6 +1,6 @@
 ---
 title: エッセンシャル思考
-id: AT-024
+id: AT-0024
 slug: essentialism
 type: thinking-method
 aliases: [Essentialism, エッセンシャリズム, より少なく、しかしより良く]

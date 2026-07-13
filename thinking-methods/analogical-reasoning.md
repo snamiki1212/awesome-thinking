@@ -1,6 +1,6 @@
 ---
 title: アナロジー思考
-id: AT-026
+id: AT-0026
 slug: analogical-reasoning
 type: thinking-method
 aliases: [Analogical Reasoning, Reasoning by Analogy, 類推, アナロジー]

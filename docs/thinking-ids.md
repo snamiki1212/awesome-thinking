@@ -15,8 +15,8 @@ tags: [運用ルール, ID, 思考ツール]
 
 ## 形式と適用範囲
 
-ID は `AT-001` 形式とする。
-`AT-` は awesome-thinking を表し、数字部は 3 桁以上の十進連番とする。
+ID は `AT-0001` 形式とする。
+`AT-` は awesome-thinking を表し、数字部は 4 桁の十進連番とする。
 
 対象は、`thinking-mental-models/`、`thinking-frameworks/`、`thinking-methods/`、`thinking-skills/` 配下の詳細ファイルである。
 各ファイルの frontmatter に `id` を 1 つだけ置く。

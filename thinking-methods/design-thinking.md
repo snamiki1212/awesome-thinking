@@ -1,6 +1,6 @@
 ---
 title: デザイン思考
-id: AT-020
+id: AT-0020
 slug: design-thinking
 type: thinking-method
 aliases: [Design Thinking]

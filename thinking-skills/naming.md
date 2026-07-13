@@ -1,6 +1,6 @@
 ---
 title: 命名
-id: AT-032
+id: AT-0032
 slug: naming
 type: thinking-skill
 aliases: [ネーミング, ラベリング, Naming, Labeling]

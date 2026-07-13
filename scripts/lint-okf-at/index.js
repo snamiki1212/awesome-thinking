@@ -11,7 +11,7 @@
  *   - type が空でない
  *   - timestamp が ISO 8601 形式である
  *   - 禁止フィールド（created_at / updated_at）を使っていない
- *   - 思考ツールの詳細ファイルが一意な AT-001 形式の id を持つ
+ *   - 思考ツールの詳細ファイルが一意な AT-0001 形式の id を持つ
  *   - 本文に wikilink（[[スラッグ]]）を使っていない（コードスパン・コードブロック内は除く）
  *
  * 検査対象から外すファイルは、同ディレクトリの 2 つの管理ファイルで扱う（ハードコードしない）:
@@ -40,7 +40,7 @@ const SPEC_PATH = 'docs/okf-at/README.md';
 
 const REQUIRED_FIELDS = ['type', 'title', 'description', 'timestamp', 'tags'];
 const FORBIDDEN_FIELDS = ['created_at', 'updated_at'];
-const THINKING_ID = /^AT-\d{3,}$/;
+const THINKING_ID = /^AT-\d{4}$/;
 // 日付のみ、または日時（タイムゾーン付き可）の ISO 8601
 const ISO_8601 = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(Z|[+-]\d{2}:?\d{2})?)?$/;
 
@@ -138,7 +138,7 @@ function lintFile(relPath) {
     if (!id || !id.hasValue) {
       violations.push('思考ツールの詳細ファイルには `id` が必要');
     } else if (!THINKING_ID.test(id.value)) {
-      violations.push(`\`id\` が形式 \`AT-001\` に一致しない: ${id.value}`);
+      violations.push(`\`id\` が形式 \`AT-0001\` に一致しない: ${id.value}`);
     }
   }
   for (const line of findWikilinks(text)) {

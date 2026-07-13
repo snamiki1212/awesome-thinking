@@ -1,6 +1,6 @@
 ---
 title: ネガティブ・ケイパビリティ
-id: AT-023
+id: AT-0023
 slug: negative-capability
 type: thinking-method
 aliases: [Negative Capability, 消極的能力, 負の能力]
