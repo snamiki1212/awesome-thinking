@@ -3,6 +3,8 @@ title: MECE
 slug: mece
 type: framework
 aliases: [Mutually Exclusive and Collectively Exhaustive, モレなくダブりなく]
+description: "物事を「漏れなく、重複なく」に分けて整理するための原則。"
+timestamp: 2026-07-13T11:01:26+09:00
 tags: [分析, 問題解決]
 ---
 

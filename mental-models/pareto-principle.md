@@ -3,6 +3,8 @@ title: パレートの法則
 slug: pareto-principle
 type: mental-model
 aliases: [Pareto Principle, 80:20の法則, ばらつきの偏り]
+description: "成果の大部分は、ごく一部の要因から生まれる、という偏りの見方。"
+timestamp: 2026-06-08T13:57:26+09:00
 tags: [意思決定, 問題解決]
 ---
 

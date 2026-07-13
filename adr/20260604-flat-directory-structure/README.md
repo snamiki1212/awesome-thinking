@@ -1,7 +1,10 @@
 ---
+type: adr
 title: 思考の4タイプをトップ直下にフラットに置く（thinking/ でまとめない）
-date: 2026-06-04
+description: "4タイプのディレクトリはトップ直下にフラットに置き、thinking/ などの親ディレクトリでの階層化は採用しないと定める。"
+timestamp: 2026-06-04
 status: Accepted
+tags: [adr]
 ---
 
 # 思考の4タイプをトップ直下にフラットに置く（thinking/ でまとめない）

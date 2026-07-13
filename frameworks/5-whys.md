@@ -3,6 +3,8 @@ title: なぜなぜ分析
 slug: 5-whys
 type: framework
 aliases: [5 Whys, なぜを5回, 5回のなぜ]
+description: "「なぜ？」を繰り返して、表面的な現象から根本原因まで掘り下げる枠組み。"
+timestamp: 2026-06-05T18:04:21+09:00
 tags: [問題解決, 分析]
 ---
 

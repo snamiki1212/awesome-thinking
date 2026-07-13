@@ -1,7 +1,10 @@
 ---
+type: adr
 title: 収録の受け入れ要件を定め、対象外は却下リストに記録する
-date: 2026-06-04
+description: "収録の受け入れ要件を docs/taxonomy.md に明文化し、対象外は reject として docs/out-of-scope.md に記録する運用を定める。"
+timestamp: 2026-06-04
 status: Accepted
+tags: [adr]
 ---
 
 # 収録の受け入れ要件を定め、対象外は却下リストに記録する

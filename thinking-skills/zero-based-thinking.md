@@ -3,6 +3,8 @@ title: ゼロベース思考
 slug: zero-based-thinking
 type: thinking-skill
 aliases: [Zero-Based Thinking, 白紙思考]
+description: "既存の前提・しがらみをいったん白紙に戻し、「もし今ゼロから始めるなら」と考える技。"
+timestamp: 2026-06-08T13:51:22+09:00
 tags: [発想, 問題解決]
 ---
 

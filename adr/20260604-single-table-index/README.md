@@ -1,7 +1,10 @@
 ---
+type: adr
 title: トップ README の一覧を単一テーブルに統合する
-date: 2026-06-04
+description: "トップ README の一覧を、絵文字付きのジャンル列を持つ1つの統合テーブルにまとめる。"
+timestamp: 2026-06-04
 status: Accepted
+tags: [adr]
 ---
 
 # トップ README の一覧を単一テーブルに統合する

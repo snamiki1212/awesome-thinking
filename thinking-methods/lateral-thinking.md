@@ -3,6 +3,8 @@ title: ラテラルシンキング
 slug: lateral-thinking
 type: thinking-method
 aliases: [Lateral Thinking, 水平思考]
+description: "論理の積み上げではなく、前提を飛び越えて新しい発想を生む流儀。"
+timestamp: 2026-06-08T15:19:03+09:00
 tags: [発想]
 ---
 

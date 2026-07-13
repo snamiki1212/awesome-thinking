@@ -1,7 +1,10 @@
 ---
+type: adr
 title: タイプを L1〜L4 の通し番号で階層化しない
-date: 2026-06-02
+description: "4タイプを L1〜L4 の1本の軸に並べる階層化を検討し、並列の4分類を維持して却下した記録。"
+timestamp: 2026-06-02
 status: Rejected
+tags: [adr]
 ---
 
 # タイプを L1〜L4 の通し番号で階層化しない

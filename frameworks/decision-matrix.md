@@ -3,6 +3,8 @@ title: 意思決定マトリクス
 slug: decision-matrix
 type: framework
 aliases: [Decision Matrix, 評価マトリクス, デシジョンマトリクス]
+description: "選択肢を行、評価基準を列に並べた表で全選択肢を横並びに評価し、比較と合意の土台を作る枠組み。"
+timestamp: 2026-07-13T11:01:26+09:00
 tags: [意思決定, 問題解決, 合意形成]
 ---
 

@@ -3,6 +3,8 @@ title: 虫の目・鳥の目・魚の目
 slug: birds-worms-fish-eye
 type: thinking-skill
 aliases: [三つの目, 鳥の目・虫の目・魚の目, Bird's-eye Worm's-eye Fish's-eye View]
+description: "同じ対象を「細部（虫）」「全体（鳥）」「流れ（魚）」の3つの視点に切り替えて眺め、見落としを減らす技。"
+timestamp: 2026-06-08T13:47:11+09:00
 tags: [視点, 分析, 問題解決]
 ---
 

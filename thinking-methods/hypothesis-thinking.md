@@ -3,6 +3,8 @@ title: 仮説思考
 slug: hypothesis-thinking
 type: thinking-method
 aliases: [Hypothesis Thinking, 仮説driven]
+description: "情報を集めきる前に「たぶんこうだ」という仮の答えを立て、それを検証しながら進める流儀。"
+timestamp: 2026-06-08T16:55:29+09:00
 tags: [問題解決, 意思決定]
 ---
 

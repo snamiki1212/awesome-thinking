@@ -3,6 +3,8 @@ title: ロジックツリー
 slug: logic-tree
 type: framework
 aliases: [Logic Tree, 階層分解, ツリー分析]
+description: "1つのテーマを木構造で枝分かれさせ、階層的に分解して整理する枠組み。"
+timestamp: 2026-07-13T11:01:26+09:00
 tags: [問題解決, 分析]
 ---
 
