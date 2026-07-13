@@ -2,7 +2,7 @@
 type: guideline
 title: CLAUDE.md（エージェント向け作業方針）
 description: "このリポジトリで作業する際の方針を Claude などのコーディングエージェントに伝える指示書。"
-timestamp: 2026-07-13T00:00:00+09:00
+timestamp: 2026-07-13T14:00:00+09:00
 tags: [運用ルール]
 ---
 
@@ -48,23 +48,25 @@ tags: [運用ルール]
 
 タイプ（思考の種類）ごとにディレクトリを分けます。種類の定義そのものが、ディレクトリの境界になります。
 
+この節が示すのは配置の規則だけです。
+いまあるファイルの網羅的な一覧は、この節には書かず、各ディレクトリの `index.md`（自動生成の目次）を参照してください。経緯: [adr/20260713-rules-not-inventory](./adr/20260713-rules-not-inventory/README.md)
+
 ```
-README.md                  # トップの一覧（各ジャンルの一覧へのリンク）
-docs/taxonomy.md           # 4タイプの定義と違いの整理（＋収録の受け入れ要件）
-docs/out-of-scope.md       # 収録対象外（reject）リスト
-docs/okf-at/               # ナレッジ管理フォーマット OKF-AT の規約（正典）
-scripts/lint-okf-at/       # OKF-AT 準拠を検査する linter（CI・ローカル共用）
+README.md                  # トップの一覧（手書きで維持するコアコンテンツ）
+index.md                   # 機械・エージェント向けの目次（自動生成。Concept を含む各ディレクトリに置く）
 thinking-frameworks/       # 思考フレームワーク
-  README.md                # 思考フレームワークの一覧
-  <slug>.md                # 各項目の詳細
+  README.md                # ジャンルの概要（一覧は index.md に委ねる）
+  index.md                 # 一覧（自動生成）
+  <slug>.md                # 各項目の詳細（英語 kebab-case）
 thinking-mental-models/    # メンタルモデル
 thinking-methods/          # 思考法
 thinking-skills/           # 思考術
 adr/                       # 意思決定の記録（ADR）
-  README.md                # ADR の一覧
   yyyymmdd-<name>/         # 1意思決定 = 1ディレクトリ
     README.md              # 決定の本文
-CLAUDE.md
+docs/                      # 運用ドキュメント（分類の定義・OKF-AT 規約など）
+scripts/                   # 支援ツール（OKF-AT linter・index.md ジェネレータ）
+CLAUDE.md                  # 執筆・運用方針（このファイル）
 ```
 
 各タイプの定義は `docs/taxonomy.md` を正本とします。新しい項目を追加する前に必ず参照してください。
@@ -75,9 +77,12 @@ CLAUDE.md
 規約の正典は [`docs/okf-at/README.md`](./docs/okf-at/README.md)、採用の経緯は [adr/20260713-adopt-okf-at-knowledge-format](./adr/20260713-adopt-okf-at-knowledge-format/README.md) を参照してください。
 準拠は CI（`lint-okf-at`）で検査されます。ローカルでは `node scripts/lint-okf-at` で確認できます。
 
+各ディレクトリの `index.md`（OKF の目次）は自動生成物です。手で編集せず、Markdown の追加・改名・削除や frontmatter の `title` / `description` を変更したら `node scripts/gen-okf-index` で再生成してください（最新かどうかは CI が検査します）。`index.md` を置くディレクトリには、サブディレクトリの説明の引用元となる `README.md` が必須です（欠けていると同ツールが fail します）。経緯: [adr/20260713-generate-okf-index](./adr/20260713-generate-okf-index/README.md)
+
 ## 一覧と詳細の関係
 
-- **一覧（インデックス）**: トップ `README.md` から各ジャンルの `README.md` を辿れます。各ジャンルの `README.md` がそのジャンルの一覧表です。
+- **一覧（インデックス）**: 各ディレクトリの `index.md`（自動生成）が一覧です。README.md は概要だけを書き、一覧の列挙はせず `index.md` へのリンクを置きます（`index.md` 相当の列挙を README に書くと二重管理になるため）。経緯: [adr/20260713-readme-delegates-listing-to-index](./adr/20260713-readme-delegates-listing-to-index/README.md)
+- **例外はトップ `README.md` だけ**: 全項目の一覧はこのリポジトリのコアコンテンツなので、トップ `README.md` は手書きの統合テーブルを持ち続けます。
 - **詳細**: 各項目は、そのジャンルのディレクトリ配下の個別 Markdown ファイルに詳細を記載します。
 
 ## 項目を追加するときの手順
@@ -159,4 +164,4 @@ Accepted（採用） / Rejected（却下） / Superseded（後継ADRに置換）
 ### 手順
 
 1. `adr/yyyymmdd-<name>/README.md` を上記テンプレートで作成する。
-2. `adr/README.md` の一覧表に1行追加する。
+2. `node scripts/gen-okf-index` を実行し、一覧（`adr/index.md` ほか）を再生成する。
