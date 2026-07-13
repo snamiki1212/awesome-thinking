@@ -12,6 +12,7 @@ tags: [okf, ナレッジ管理]
 OKF-AT は OKF v0.1 の制約を壊さずに強めるラッパーであり、**OKF-AT に準拠したバンドルは OKF v0.1 にも準拠する**。
 
 背景と意思決定は [ADR: ナレッジ管理フォーマットに OKF-AT を採用する](../../adr/20260713-adopt-okf-at-knowledge-format/README.md)、OKF 自体の仕様は [okf-primer.md](./okf-primer.md) を参照。
+このディレクトリの文書一覧は [index.md](./index.md) を参照。
 
 ## 適用範囲
 
@@ -93,6 +94,12 @@ README.md は予約ファイルではない。
 
 - **README.md**: 人間向けの概要・ナビゲーション。手書きし、他の Concept と同じく OKF-AT 必須フィールドを持つ（予約ファイルではない）。この用途では `type: readme` とする
 - **index.md**: 機械・エージェント向けの目次。ツールで自動生成する（手書きしない）。frontmatter は持たないが、ルートの `index.md` だけは OKF §11 に従い `okf_version: "0.1"` を宣言する
+
+README.md に配下の一覧を列挙しない。
+`index.md` 相当の列挙を README.md にも書くと二重管理になり、片方の更新漏れで食い違うため。
+README.md は概要だけを書き、原則として `index.md` へのリンクを置く。
+例外はトップの README.md だけで、全項目の一覧はこのリポジトリのコアコンテンツなので手書きの一覧を持ち続ける。
+経緯: [ADR: README の一覧列挙は index.md に委ねる](../../adr/20260713-readme-delegates-listing-to-index/README.md)
 
 ### index.md の自動生成
 

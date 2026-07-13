@@ -4,7 +4,7 @@
 
 ## ドキュメント
 
-* [意思決定の記録（ADR）一覧](./README.md) - リポジトリの構成・方針・分類に関する意思決定（ADR）の一覧。
+* [意思決定の記録（ADR）](./README.md) - リポジトリの構成・方針・分類に関する意思決定（ADR）を収録するディレクトリ。
 
 ## サブディレクトリ
 
@@ -22,4 +22,5 @@
 * [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/) - 項目の命名は特定の著者・一冊の本の造語より、その分野で一般的・確立した呼称を優先し、出典は単一に依存しないと定める。
 * [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/) - OKF v0.1 をベースにした独自プロファイル OKF-AT を定義し、リポジトリ全体のナレッジ管理フォーマットとして採用する。
 * [OKF の目次 index.md をツールで自動生成する](./20260713-generate-okf-index/) - OKF の予約ファイル index.md を scripts/gen-okf-index で全ディレクトリに自動生成し、CI で最新かを検査する運用を定める。
+* [README の一覧列挙は index.md に委ねる（トップ README を除く）](./20260713-readme-delegates-listing-to-index/) - README.md には配下の一覧を列挙せず index.md へのリンクを置き、コアコンテンツであるトップ README の一覧だけを手書きで維持すると定める。
 * [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/) - メインコンテンツの4タイプを一覧で判別できるよう、ディレクトリ名を thinking- prefix で統一すると定めた記録。

@@ -2,7 +2,7 @@
 type: readme
 title: awesome-thinking
 description: "「思考」の知識（メンタルモデル・思考フレームワーク・思考法・思考術）を集めて整理するリポジトリのトップの一覧。"
-timestamp: 2026-07-13T11:01:26+09:00
+timestamp: 2026-07-13T13:00:00+09:00
 tags: [一覧]
 ---
 
@@ -16,10 +16,10 @@ tags: [一覧]
 
 | タイプ | グループ | ひとことで | この例で使う思考 | 「貯金ができない」にどう使うか | 一覧 |
 | --- | --- | --- | --- | --- | --- |
-| **🧠 メンタルモデル** | 🔍 レンズ | 見え方を変える**レンズ** | [機会費用](./thinking-mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./thinking-mental-models/README.md) |
-| **🌊 思考法** | ⚙️ プロセス | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
-| **🧩 フレームワーク** | ⚙️ プロセス | 整理する**型** | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./thinking-frameworks/README.md) |
-| **⚡ 思考術** | ⚙️ プロセス | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
+| **🧠 メンタルモデル** | 🔍 レンズ | 見え方を変える**レンズ** | [機会費用](./thinking-mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./thinking-mental-models/index.md) |
+| **🌊 思考法** | ⚙️ プロセス | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/index.md) |
+| **🧩 フレームワーク** | ⚙️ プロセス | 整理する**型** | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./thinking-frameworks/index.md) |
+| **⚡ 思考術** | ⚙️ プロセス | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/index.md) |
 
 4タイプは大きく **2グループ** に分かれ、両者をまとめた総称が **思考ツール** です（包含関係は 思考ツール ⊃ グループ ⊃ タイプ）。🔍 **レンズ**（＝🧠 メンタルモデル）は手順を持たず、状況の**見え方を変える**視点。⚙️ **プロセス**（🌊 思考法 ⊃ 🧩 フレームワーク ⊃ ⚡ 思考術）は実際に**考えを進める**道具で、抽象→具体の入れ子です。レンズはプロセス全体に効きます。
 
@@ -100,7 +100,7 @@ flowchart TB
 README.md                  # このファイル（トップの一覧）
 docs/taxonomy.md           # 4タイプの定義と違い（＋収録の受け入れ要件）
 docs/out-of-scope.md       # 収録対象外（reject）リスト
-thinking-frameworks/       # 思考フレームワーク（各項目 + 一覧 README）
+thinking-frameworks/       # 思考フレームワーク（各項目。一覧は index.md）
 thinking-mental-models/    # メンタルモデル
 thinking-methods/          # 思考法
 thinking-skills/           # 思考術
