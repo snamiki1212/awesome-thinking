@@ -57,8 +57,8 @@ description: >-
 
 `docs/taxonomy.md` を読み、4タイプのどれに属するか決める。判断は次の順に問うと早い：
 
-1. **手順や埋める枠があるか？** → `frameworks/`（思考フレームワーク）
-2. **世界の見方・前提として効くか（手順はない）？** → `mental-models/`（メンタルモデル）
+1. **手順や埋める枠があるか？** → `thinking-frameworks/`（思考フレームワーク）
+2. **世界の見方・前提として効くか（手順はない）？** → `thinking-mental-models/`（メンタルモデル）
 3. **思考全体の方向性・姿勢を決める大きな構えか？** → `thinking-methods/`（思考法）
 4. **その場ですぐ打てる小さな技か？** → `thinking-skills/`（思考術）
 
@@ -67,8 +67,8 @@ description: >-
 
 | タイプ | ディレクトリ | `type` 値 |
 | --- | --- | --- |
-| メンタルモデル | `mental-models/` | `mental-model` |
-| 思考フレームワーク | `frameworks/` | `framework` |
+| メンタルモデル | `thinking-mental-models/` | `mental-model` |
+| 思考フレームワーク | `thinking-frameworks/` | `framework` |
 | 思考法 | `thinking-methods/` | `thinking-method` |
 | 思考術 | `thinking-skills/` | `thinking-skill` |
 
