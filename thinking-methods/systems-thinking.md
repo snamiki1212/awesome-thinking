@@ -1,8 +1,10 @@
 ---
 title: システム思考
+titles:
+  en: Systems Thinking
 slug: systems-thinking
 type: thinking-method
-aliases: [Systems Thinking, システムシンキング]
+aliases: [システムシンキング]
 description: "物事を個別の点ではなく、要素のつながり・全体の構造として捉える流儀。"
 timestamp: 2026-07-13T14:50:00+09:00
 tags: [問題解決, 分析]

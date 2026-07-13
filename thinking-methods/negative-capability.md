@@ -1,8 +1,10 @@
 ---
 title: ネガティブ・ケイパビリティ
+titles:
+  en: Negative Capability
 slug: negative-capability
 type: thinking-method
-aliases: [Negative Capability, 消極的能力, 負の能力]
+aliases: [消極的能力, 負の能力]
 description: "答えや決着を性急に求めず、相反する見通し・不確実さを「未解決のまま」抱え続ける能力。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 不確実性, リスク]

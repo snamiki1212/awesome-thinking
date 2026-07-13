@@ -1,8 +1,10 @@
 ---
 title: イシュー思考
+titles:
+  en: Issue-Driven
 slug: issue-driven
 type: thinking-method
-aliases: [イシューから始めよ, イシュードリブン, 論点思考, Issue-Driven, Issue Thinking]
+aliases: [イシューから始めよ, イシュードリブン, 論点思考, Issue Thinking]
 description: "解き始める前に「いま本当に答えを出すべき問い（イシュー）」を見極め、そこにだけ力を注ぐ流儀。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定, 生産性]

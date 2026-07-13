@@ -1,14 +1,16 @@
 ---
 title: 抽象化と具体化
+titles:
+  en: Abstraction and Concretization
 slug: abstraction-and-concretization
 type: thinking-skill
-aliases: [Abstraction and Concretization, 抽象と具体の往復]
+aliases: [抽象と具体の往復]
 description: "具体的な事象から本質を抜き出し（抽象化）、本質を別の場面に当てはめ直す（具体化）、その往復の技。"
 timestamp: 2026-07-13T14:50:00+09:00
 tags: [発想, 問題解決, 伝達]
 ---
 
-# 抽象化と具体化
+# 抽象化と具体化（Abstraction and Concretization）
 
 ## 一言でいうと
 具体的な事象から本質を抜き出し（抽象化）、本質を別の場面に当てはめ直す（具体化）、その往復の技。

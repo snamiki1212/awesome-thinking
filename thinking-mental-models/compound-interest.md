@@ -1,8 +1,10 @@
 ---
 title: 複利
+titles:
+  en: Compound Interest
 slug: compound-interest
 type: mental-model
-aliases: [Compound Interest, 複利効果, 雪だるま式]
+aliases: [複利効果, 雪だるま式]
 description: "成果が次の成果の土台になり、積み重なるほど伸びが加速する、という見方。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 学習]

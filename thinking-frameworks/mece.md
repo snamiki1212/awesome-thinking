@@ -1,5 +1,7 @@
 ---
 title: MECE
+titles:
+  en: MECE
 slug: mece
 type: framework
 aliases: [Mutually Exclusive and Collectively Exhaustive, モレなくダブりなく]

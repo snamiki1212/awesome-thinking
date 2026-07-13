@@ -1,8 +1,10 @@
 ---
 title: 極端思考
+titles:
+  en: Extreme Case Thinking
 slug: extreme-case-thinking
 type: thinking-skill
-aliases: [極端な例で考える, 極端ケース思考, Extreme Case Thinking]
+aliases: [極端な例で考える, 極端ケース思考]
 description: "ある変数や前提をあえて両極端まで振り切って考え、極端な状況での結果から本質や効きどころを浮かび上がらせる技。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定, 発想]
