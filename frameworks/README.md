@@ -13,5 +13,6 @@
 | [KPT](./kpt.md) | Keep-Problem-Try | 続ける・課題・次に試すで振り返る |
 | [なぜなぜ分析](./5-whys.md) | 5 Whys | 「なぜ」を繰り返して根本原因に迫る |
 | [KWLチャート](./kwl-chart.md) | KWL Chart | 知っている・知りたい・学んだの3列で学習を整理 |
+| [意思決定マトリクス](./decision-matrix.md) | Decision Matrix | 選択肢を共通の評価基準で横並びに評価して決める |
 
 [← トップの一覧へ戻る](../README.md)
