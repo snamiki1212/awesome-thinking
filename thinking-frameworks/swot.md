@@ -49,5 +49,5 @@ quadrantChart
 - 「強み/機会」の切り分けが主観的になりやすい。事実で裏づける。
 
 ## 関連
-- [[mece]]（MECE）— 漏れ・ダブりなく書き出すために併用。
-- [[logical-thinking]]（ロジカルシンキング）
+- [mece](./mece.md)（MECE）— 漏れ・ダブりなく書き出すために併用。
+- [logical-thinking](../thinking-methods/logical-thinking.md)（ロジカルシンキング）

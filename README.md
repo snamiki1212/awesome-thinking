@@ -16,9 +16,9 @@ tags: [一覧]
 
 | タイプ | グループ | ひとことで | この例で使う思考 | 「貯金ができない」にどう使うか | 一覧 |
 | --- | --- | --- | --- | --- | --- |
-| **🧠 メンタルモデル** | 🔍 レンズ | 見え方を変える**レンズ** | [機会費用](./mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./mental-models/README.md) |
+| **🧠 メンタルモデル** | 🔍 レンズ | 見え方を変える**レンズ** | [機会費用](./thinking-mental-models/opportunity-cost.md) | *今の出費は将来の選択肢を手放すこと*と捉え直す | [→](./thinking-mental-models/README.md) |
 | **🌊 思考法** | ⚙️ プロセス | 攻める**方向・姿勢** | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | *そもそも貯金が目的? 何のため?* と前提を問い直す | [→](./thinking-methods/README.md) |
-| **🧩 フレームワーク** | ⚙️ プロセス | 整理する**型** | [なぜなぜ分析](./frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./frameworks/README.md) |
+| **🧩 フレームワーク** | ⚙️ プロセス | 整理する**型** | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | *なぜ貯まらない? → 固定費が高い → なぜ?* と原因を掘る | [→](./thinking-frameworks/README.md) |
 | **⚡ 思考術** | ⚙️ プロセス | その場の**一手** | [ゼロベース思考](./thinking-skills/zero-based-thinking.md) | *支出を白紙に戻し「ゼロから組むなら」* と考える | [→](./thinking-skills/README.md) |
 
 4タイプは大きく **2グループ** に分かれ、両者をまとめた総称が **思考ツール** です（包含関係は 思考ツール ⊃ グループ ⊃ タイプ）。🔍 **レンズ**（＝🧠 メンタルモデル）は手順を持たず、状況の**見え方を変える**視点。⚙️ **プロセス**（🌊 思考法 ⊃ 🧩 フレームワーク ⊃ ⚡ 思考術）は実際に**考えを進める**道具で、抽象→具体の入れ子です。レンズはプロセス全体に効きます。
@@ -58,21 +58,21 @@ flowchart TB
 
 | ジャンル | 項目 | ひとこと |
 | --- | --- | --- |
-| 🧠 メンタルモデル | [第一原理思考](./mental-models/first-principles.md) | 前提を疑い、根本の事実まで遡って考え直す |
-| 🧠 メンタルモデル | [機会費用](./mental-models/opportunity-cost.md) | 選ぶことは、選ばなかった価値を捨てること |
-| 🧠 メンタルモデル | [複利](./mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
-| 🧠 メンタルモデル | [地図は領土ではない](./mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
-| 🧠 メンタルモデル | [パレートの法則](./mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
-| 🧠 メンタルモデル | [センターピン](./mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
-| 🧩 思考フレームワーク | [SWOT分析](./frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
-| 🧩 思考フレームワーク | [MECE](./frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
-| 🧩 思考フレームワーク | [ロジックツリー](./frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
-| 🧩 思考フレームワーク | [5W1H](./frameworks/5w1h.md) | 6つの問いで情報の漏れを防ぐ |
-| 🧩 思考フレームワーク | [PDCAサイクル](./frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
-| 🧩 思考フレームワーク | [KPT](./frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
-| 🧩 思考フレームワーク | [なぜなぜ分析](./frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
-| 🧩 思考フレームワーク | [KWLチャート](./frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
-| 🧩 思考フレームワーク | [意思決定マトリクス](./frameworks/decision-matrix.md) | 選択肢を共通の評価基準で横並びに評価して決める |
+| 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md) | 前提を疑い、根本の事実まで遡って考え直す |
+| 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md) | 選ぶことは、選ばなかった価値を捨てること |
+| 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md) | 成果が次の成果の土台になり、伸びが加速する |
+| 🧠 メンタルモデル | [地図は領土ではない](./thinking-mental-models/map-is-not-the-territory.md) | モデルやデータは現実そのものではない |
+| 🧠 メンタルモデル | [パレートの法則](./thinking-mental-models/pareto-principle.md) | 成果の大部分はごく一部の要因から生まれる |
+| 🧠 メンタルモデル | [センターピン](./thinking-mental-models/center-pin.md) | 倒せば残りも連鎖して倒れる急所の一点を狙う |
+| 🧩 思考フレームワーク | [SWOT分析](./thinking-frameworks/swot.md) | 強み・弱み・機会・脅威の4象限で現状を把握 |
+| 🧩 思考フレームワーク | [MECE](./thinking-frameworks/mece.md) | 漏れなく重複なく分ける分類の原則 |
+| 🧩 思考フレームワーク | [ロジックツリー](./thinking-frameworks/logic-tree.md) | テーマを木構造で階層的に分解する |
+| 🧩 思考フレームワーク | [5W1H](./thinking-frameworks/5w1h.md) | 6つの問いで情報の漏れを防ぐ |
+| 🧩 思考フレームワーク | [PDCAサイクル](./thinking-frameworks/pdca.md) | 計画→実行→評価→改善を回し続ける |
+| 🧩 思考フレームワーク | [KPT](./thinking-frameworks/kpt.md) | 続ける・課題・次に試すで振り返る |
+| 🧩 思考フレームワーク | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | 「なぜ」を繰り返して根本原因に迫る |
+| 🧩 思考フレームワーク | [KWLチャート](./thinking-frameworks/kwl-chart.md) | 知っている・知りたい・学んだの3列で学習を整理 |
+| 🧩 思考フレームワーク | [意思決定マトリクス](./thinking-frameworks/decision-matrix.md) | 選択肢を共通の評価基準で横並びに評価して決める |
 | 🌊 思考法 | [ロジカルシンキング](./thinking-methods/logical-thinking.md) | 主張と根拠を筋道立てて結びつける |
 | 🌊 思考法 | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | 前提や根拠を吟味し、思い込みを排する |
 | 🌊 思考法 | [ラテラルシンキング](./thinking-methods/lateral-thinking.md) | 前提を飛び越えて新しい発想を生む |
@@ -100,8 +100,8 @@ flowchart TB
 README.md                  # このファイル（トップの一覧）
 docs/taxonomy.md           # 4タイプの定義と違い（＋収録の受け入れ要件）
 docs/out-of-scope.md       # 収録対象外（reject）リスト
-mental-models/             # メンタルモデル（各項目 + 一覧 README）
-frameworks/                # 思考フレームワーク
+thinking-frameworks/       # 思考フレームワーク（各項目 + 一覧 README）
+thinking-mental-models/    # メンタルモデル
 thinking-methods/          # 思考法
 thinking-skills/           # 思考術
 adr/                       # 意思決定の記録（yyyymmdd-<name>/ ごと）

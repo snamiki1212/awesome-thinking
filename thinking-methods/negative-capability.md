@@ -4,7 +4,7 @@ slug: negative-capability
 type: thinking-method
 aliases: [Negative Capability, 消極的能力, 負の能力]
 description: "答えや決着を性急に求めず、相反する見通し・不確実さを「未解決のまま」抱え続ける能力。"
-timestamp: 2026-06-08T14:19:08+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 不確実性, リスク]
 ---
 
@@ -47,8 +47,8 @@ tags: [意思決定, 不確実性, リスク]
 - **優柔不断** — 結論を出さない見た目は似るが、優柔不断は*備えのない停止*、ネガティブ・ケイパビリティは*両シナリオに備えた能動的保留*。
 
 ## 関連
-- [[uncertainty-management]]（不確実性マネジメント）— 不確実さを能動的に「減らす・備える」流儀。減らせない部分を「抱え続ける」本項と対をなし、減らせる部分は減らし、残りを抱える、と組み合わせる。
-- [[hypothesis-thinking]]（仮説思考）— 早く一つの仮の答えに絞る流儀。「保留して抱え続ける」本項と対照的で、状況に応じて使い分ける。
-- [[critical-thinking]]（クリティカルシンキング）— 性急な結論・思い込みを疑う姿勢として併用しやすい。
-- [[extreme-case-thinking]]（極端思考）— 「最悪が起きたら」を振り切って考え、失敗側のストーリーを具体化するのに役立つ。
-- [[devils-advocate]]（悪魔の代弁者）— あえて反対側のシナリオを担い、両面を保持する助けになる。
+- [uncertainty-management](./uncertainty-management.md)（不確実性マネジメント）— 不確実さを能動的に「減らす・備える」流儀。減らせない部分を「抱え続ける」本項と対をなし、減らせる部分は減らし、残りを抱える、と組み合わせる。
+- [hypothesis-thinking](./hypothesis-thinking.md)（仮説思考）— 早く一つの仮の答えに絞る流儀。「保留して抱え続ける」本項と対照的で、状況に応じて使い分ける。
+- [critical-thinking](./critical-thinking.md)（クリティカルシンキング）— 性急な結論・思い込みを疑う姿勢として併用しやすい。
+- [extreme-case-thinking](../thinking-skills/extreme-case-thinking.md)（極端思考）— 「最悪が起きたら」を振り切って考え、失敗側のストーリーを具体化するのに役立つ。
+- [devils-advocate](../thinking-skills/devils-advocate.md)（悪魔の代弁者）— あえて反対側のシナリオを担い、両面を保持する助けになる。

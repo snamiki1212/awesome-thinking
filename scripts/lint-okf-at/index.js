@@ -11,6 +11,7 @@
  *   - type が空でない
  *   - timestamp が ISO 8601 形式である
  *   - 禁止フィールド（created_at / updated_at）を使っていない
+ *   - 本文に wikilink（[[スラッグ]]）を使っていない（コードスパン・コードブロック内は除く）
  *
  * 検査対象から外すファイルは、同ディレクトリの 2 つの管理ファイルで扱う（ハードコードしない）:
  *   - ignore.txt … 恒久的な除外パターン（gitignore 形式）。独自スキーマ・生成物等、
@@ -152,6 +153,37 @@ function parseFrontmatter(text) {
   return { fields };
 }
 
+/**
+ * 本文から wikilink（[[スラッグ]]）を検出し、行番号（1 始まり）の配列を返す。
+ * GitHub 上でリンクとして機能しないため、Markdown リンクへの置き換えを求める。
+ * 検査対象は本文のみ（frontmatter は対象外）。
+ * 規約を説明するための記載（コードスパン・コードブロック内）も対象外。
+ */
+function findWikilinks(text) {
+  const lines = text.split(/\r?\n/);
+  let start = 0;
+  if (lines[0] === '---') {
+    for (let i = 1; i < lines.length; i++) {
+      if (lines[i] === '---' || lines[i] === '...') {
+        start = i + 1;
+        break;
+      }
+    }
+  }
+  const hits = [];
+  let inFence = false;
+  for (let i = start; i < lines.length; i++) {
+    if (/^\s*(```|~~~)/.test(lines[i])) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const withoutCodeSpans = lines[i].replace(/`[^`]*`/g, '');
+    if (/\[\[[^\]]+\]\]/.test(withoutCodeSpans)) hits.push(i + 1);
+  }
+  return hits;
+}
+
 /** 1 ファイルを検査し、違反メッセージの配列を返す。 */
 function lintFile(relPath) {
   const text = fs.readFileSync(path.join(REPO_ROOT, relPath), 'utf8');
@@ -173,6 +205,9 @@ function lintFile(relPath) {
     if (fm.fields.has(key)) {
       violations.push(`禁止フィールド \`${key}\` を使っている（\`timestamp\` に一本化する）`);
     }
+  }
+  for (const line of findWikilinks(text)) {
+    violations.push(`wikilink \`[[スラッグ]]\` を使っている（Markdown リンクで書く）: ${line} 行目`);
   }
   return violations;
 }

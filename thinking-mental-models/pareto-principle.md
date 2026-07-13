@@ -4,7 +4,7 @@ slug: pareto-principle
 type: mental-model
 aliases: [Pareto Principle, 80:20の法則, ばらつきの偏り]
 description: "成果の大部分は、ごく一部の要因から生まれる、という偏りの見方。"
-timestamp: 2026-06-08T13:57:26+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 問題解決]
 ---
 
@@ -36,7 +36,7 @@ tags: [意思決定, 問題解決]
 - 切り捨てた8割の中に、将来の重要要素が隠れていることもある。
 
 ## 関連
-- [[opportunity-cost]]（機会費用）
-- [[logic-tree]]（ロジックツリー）— 要因を分解して偏りを見つけるのに使える。
-- [[essentialism]]（エッセンシャル思考）— 「効く少数」に絞って集中する流儀の根拠になるレンズ。
-- [[center-pin]]（センターピン）— 「効く少数」に注目する姉妹のレンズ。偏りに対し、こちらは連鎖を狙う。
+- [opportunity-cost](./opportunity-cost.md)（機会費用）
+- [logic-tree](../thinking-frameworks/logic-tree.md)（ロジックツリー）— 要因を分解して偏りを見つけるのに使える。
+- [essentialism](../thinking-methods/essentialism.md)（エッセンシャル思考）— 「効く少数」に絞って集中する流儀の根拠になるレンズ。
+- [center-pin](./center-pin.md)（センターピン）— 「効く少数」に注目する姉妹のレンズ。偏りに対し、こちらは連鎖を狙う。

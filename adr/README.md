@@ -26,6 +26,8 @@ tags: [一覧, adr]
 | 2026-06-05 | [思考ツールの階層の呼称をカタカナ英語で揃える（総称／グループ／タイプ）](./20260604-tier-terminology/README.md) | Accepted（採用） |
 | 2026-06-08 | [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/README.md) | Accepted（採用） |
 | 2026-07-13 | [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/README.md) | Accepted（採用） |
+| 2026-07-13 | [4タイプのディレクトリ名を thinking- prefix で統一する](./20260713-thinking-prefix-for-type-directories/README.md) | Accepted（採用） |
+| 2026-07-13 | [関連セクションのリンクを Markdown リンクに統一する](./20260713-markdown-links-for-related-sections/README.md) | Accepted（採用） |
 | 2026-07-13 | [詳細ファイルに任意の「図解」節を設け、mermaid で図示する](./20260713-optional-diagram-section/README.md) | Accepted（採用） |
 
 [← トップの一覧へ戻る](../README.md)

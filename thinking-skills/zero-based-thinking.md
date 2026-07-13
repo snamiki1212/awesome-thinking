@@ -4,7 +4,7 @@ slug: zero-based-thinking
 type: thinking-skill
 aliases: [Zero-Based Thinking, 白紙思考]
 description: "既存の前提・しがらみをいったん白紙に戻し、「もし今ゼロから始めるなら」と考える技。"
-timestamp: 2026-06-08T13:51:22+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決]
 ---
 
@@ -36,9 +36,9 @@ tags: [発想, 問題解決]
 - 思考実験で止めず、現実の制約と接続して実行に落とす。
 
 ## 関連
-- [[first-principles]]（第一原理思考）— 根本まで遡る点で近い。
-- [[opportunity-cost]]（機会費用）
-- [[lateral-thinking]]（ラテラルシンキング）
-- [[extreme-case-thinking]]（極端思考）— 前提を外す思考実験として近い。
-- [[thought-experiment]]（思考実験）— 「前提を外したら何が起きるか」を想像して試す点で近い。
-- [[essentialism]]（エッセンシャル思考）— 「本当に重要か」を問い直す技として併用しやすい。
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）— 根本まで遡る点で近い。
+- [opportunity-cost](../thinking-mental-models/opportunity-cost.md)（機会費用）
+- [lateral-thinking](../thinking-methods/lateral-thinking.md)（ラテラルシンキング）
+- [extreme-case-thinking](./extreme-case-thinking.md)（極端思考）— 前提を外す思考実験として近い。
+- [thought-experiment](./thought-experiment.md)（思考実験）— 「前提を外したら何が起きるか」を想像して試す点で近い。
+- [essentialism](../thinking-methods/essentialism.md)（エッセンシャル思考）— 「本当に重要か」を問い直す技として併用しやすい。

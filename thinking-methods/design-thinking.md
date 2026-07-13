@@ -49,5 +49,5 @@ flowchart LR
 - 共感を飛ばしてアイデア出しから始めると、的外れになりやすい。
 
 ## 関連
-- [[hypothesis-thinking]]（仮説思考）
-- [[lateral-thinking]]（ラテラルシンキング）
+- [hypothesis-thinking](./hypothesis-thinking.md)（仮説思考）
+- [lateral-thinking](./lateral-thinking.md)（ラテラルシンキング）

@@ -47,5 +47,5 @@ flowchart LR
 - 変化の速い領域では、より速い OODA ループや仮説検証が向く場合もある。
 
 ## 関連
-- [[kpt]]（KPT）— Check/Act の振り返りに使える。
-- [[hypothesis-thinking]]（仮説思考）
+- [kpt](./kpt.md)（KPT）— Check/Act の振り返りに使える。
+- [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）

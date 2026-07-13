@@ -47,7 +47,7 @@ flowchart LR
 - 「すべてつながっている」で思考停止しない。介入点（レバレッジポイント）を探す。
 
 ## 関連
-- [[compound-interest]]（複利）— フィードバックループの一例。
-- [[map-is-not-the-territory]]（地図は領土ではない）
-- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 鳥の目・魚の目を大きな構えとして体系化した思考法。
-- [[center-pin]]（センターピン）— つながりの中で「波及の起点」を一点に見いだすレンズ。
+- [compound-interest](../thinking-mental-models/compound-interest.md)（複利）— フィードバックループの一例。
+- [map-is-not-the-territory](../thinking-mental-models/map-is-not-the-territory.md)（地図は領土ではない）
+- [birds-worms-fish-eye](../thinking-skills/birds-worms-fish-eye.md)（虫の目・鳥の目・魚の目）— 鳥の目・魚の目を大きな構えとして体系化した思考法。
+- [center-pin](../thinking-mental-models/center-pin.md)（センターピン）— つながりの中で「波及の起点」を一点に見いだすレンズ。

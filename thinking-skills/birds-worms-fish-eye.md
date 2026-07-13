@@ -4,7 +4,7 @@ slug: birds-worms-fish-eye
 type: thinking-skill
 aliases: [三つの目, 鳥の目・虫の目・魚の目, Bird's-eye Worm's-eye Fish's-eye View]
 description: "同じ対象を「細部（虫）」「全体（鳥）」「流れ（魚）」の3つの視点に切り替えて眺め、見落としを減らす技。"
-timestamp: 2026-06-08T13:47:11+09:00
+timestamp: 2026-07-13T00:00:00+09:00
 tags: [視点, 分析, 問題解決]
 ---
 
@@ -50,6 +50,6 @@ tags: [視点, 分析, 問題解決]
 - **システム思考（Systems Thinking）** — 全体のつながりや時間的な動きで捉える点が鳥の目・魚の目に近いが、システム思考は思考全体の構え（思考法）。虫鳥魚はその場で視点を切り替える小さな技。
 
 ## 関連
-- [[abstraction-and-concretization]]（抽象化と具体化）— 鳥の目⇔虫の目の往復に対応する技。
-- [[reframing]]（リフレーミング）— 見方を変えるという点で同じ系統の技。
-- [[systems-thinking]]（システム思考）— 鳥の目・魚の目を大きな構えとして体系化した思考法。
+- [abstraction-and-concretization](./abstraction-and-concretization.md)（抽象化と具体化）— 鳥の目⇔虫の目の往復に対応する技。
+- [reframing](./reframing.md)（リフレーミング）— 見方を変えるという点で同じ系統の技。
+- [systems-thinking](../thinking-methods/systems-thinking.md)（システム思考）— 鳥の目・魚の目を大きな構えとして体系化した思考法。

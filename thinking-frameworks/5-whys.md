@@ -51,5 +51,5 @@ flowchart TD
 - **5 Whys（Five Whys）** — 同じ手法を指す別名で、内容は同一。本リポジトリでは1項目として扱う。強いて言えば「5 Whys」は**回数（なぜを5回問う）**を、「なぜなぜ分析」は**動作（なぜを繰り返す）**を呼び名の前面に出している、というニュアンスの差があるだけ。いずれも「5回」は目安で固定ではない。
 
 ## 関連
-- [[logic-tree]]（ロジックツリー）— 原因が分岐する場合に併用。
-- [[hypothesis-thinking]]（仮説思考）
+- [logic-tree](./logic-tree.md)（ロジックツリー）— 原因が分岐する場合に併用。
+- [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）

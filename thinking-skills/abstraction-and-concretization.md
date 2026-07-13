@@ -47,8 +47,8 @@ flowchart LR
 - 具体だけだと応用が利かない。常に往復させるのがコツ。
 
 ## 関連
-- [[first-principles]]（第一原理思考）
-- [[reframing]]（リフレーミング）
-- [[naming]]（命名）— 抽象化で抜き出した本質に名前をつけると扱いやすくなる。
-- [[birds-worms-fish-eye]]（虫の目・鳥の目・魚の目）— 鳥の目⇔虫の目の往復が抽象⇔具体に対応する。
-- [[analogical-reasoning]]（アナロジー思考）— 抽象化で抜き出した本質を別領域に写す土台になる。
+- [first-principles](../thinking-mental-models/first-principles.md)（第一原理思考）
+- [reframing](./reframing.md)（リフレーミング）
+- [naming](./naming.md)（命名）— 抽象化で抜き出した本質に名前をつけると扱いやすくなる。
+- [birds-worms-fish-eye](./birds-worms-fish-eye.md)（虫の目・鳥の目・魚の目）— 鳥の目⇔虫の目の往復が抽象⇔具体に対応する。
+- [analogical-reasoning](../thinking-methods/analogical-reasoning.md)（アナロジー思考）— 抽象化で抜き出した本質を別領域に写す土台になる。
