@@ -1,0 +1,17 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+  categories:
+    - title: "思考ツールの追加・更新"
+      labels:
+        - content
+    - title: "分類・構成"
+      labels:
+        - taxonomy
+    - title: "運用ドキュメント"
+      labels:
+        - documentation
+    - title: "その他の変更"
+      labels:
+        - "*"
