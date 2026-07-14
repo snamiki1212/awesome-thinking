@@ -17,7 +17,7 @@ tags: [一覧]
 「貯金ができない」という問いで、4タイプの使い方を比べます。
 
 | タイプ | グループ | 役割 | この例で使う思考 | 例での使い方 | 一覧 |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | 🧠 メンタルモデル | 🔍 レンズ | 見え方を変える | [機会費用](./thinking-mental-models/opportunity-cost.md) | 今の出費を、将来の選択肢を手放すことだと捉え直す | [一覧](./thinking-mental-models/index.md) |
 | 🌊 思考法 | ⚙️ プロセス | 考える方向・姿勢を定める | [クリティカルシンキング](./thinking-methods/critical-thinking.md) | そもそも貯金額が目的なのか、何のために貯めるのかを問う | [一覧](./thinking-methods/index.md) |
 | 🧩 思考フレームワーク | ⚙️ プロセス | 情報を整理する型を与える | [なぜなぜ分析](./thinking-frameworks/5-whys.md) | 「なぜ貯まらないか」を繰り返し、原因を掘り下げる | [一覧](./thinking-frameworks/index.md) |
