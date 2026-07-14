@@ -94,7 +94,11 @@ function renderIndex(node) {
     if (b === 'README.md') return 1;
     const aMeta = readMeta(node.relDir ? `${node.relDir}/${a}` : a);
     const bMeta = readMeta(node.relDir ? `${node.relDir}/${b}` : b);
-    if (aMeta.id && bMeta.id) return aMeta.id.localeCompare(bMeta.id);
+    if (aMeta.id && bMeta.id) {
+      const aNumber = Number.parseInt(aMeta.id.slice('AT-'.length), 10);
+      const bNumber = Number.parseInt(bMeta.id.slice('AT-'.length), 10);
+      return aNumber - bNumber;
+    }
     if (aMeta.id) return -1;
     if (bMeta.id) return 1;
     return a < b ? -1 : a > b ? 1 : 0;
