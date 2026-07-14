@@ -43,6 +43,7 @@ tags: [運用ルール]
   - 例: `thinking-mental-models/first-principles.md`（本文タイトルは「第一原理思考」）
 - 4タイプのディレクトリ名は **`thinking-` prefix で統一**します（メインコンテンツを一覧で判別するため）。経緯: [adr/20260713-thinking-prefix-for-type-directories](./adr/20260713-thinking-prefix-for-type-directories/README.md)
 - スラッグには対応する日本語名を、各 Markdown のフロントマターと本文タイトルで必ず併記してください。
+- 英語名など多言語の正式名は、フロントマターの `titles`（言語コード → 名称のマップ。例: `titles: { en: First Principles Thinking }`）で管理します。経緯: [adr/20260713-titles-frontmatter-for-multilingual-names](./adr/20260713-titles-frontmatter-for-multilingual-names/README.md)
 
 ## 思考ツールの ID
 

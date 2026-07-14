@@ -1,15 +1,17 @@
 ---
 title: ゼロベース思考
 id: AT-0028
+titles:
+  en: Zero-Based Thinking
 slug: zero-based-thinking
 type: thinking-skill
-aliases: [Zero-Based Thinking, 白紙思考]
+aliases: [白紙思考]
 description: "既存の前提・しがらみをいったん白紙に戻し、「もし今ゼロから始めるなら」と考える技。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決]
 ---
 
-# ゼロベース思考
+# ゼロベース思考（Zero-Based Thinking）
 
 ## 一言でいうと
 既存の前提・しがらみをいったん白紙に戻し、「もし今ゼロから始めるなら」と考える技。

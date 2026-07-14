@@ -1,9 +1,11 @@
 ---
 title: ロジックツリー
 id: AT-0009
+titles:
+  en: Logic Tree
 slug: logic-tree
 type: framework
-aliases: [Logic Tree, 階層分解, ツリー分析]
+aliases: [階層分解, ツリー分析]
 description: "1つのテーマを木構造で枝分かれさせ、階層的に分解して整理する枠組み。"
 timestamp: 2026-07-13T14:50:00+09:00
 tags: [問題解決, 分析]

@@ -1,9 +1,11 @@
 ---
 title: センターピン
 id: AT-0006
+titles:
+  en: Center Pin
 slug: center-pin
 type: mental-model
-aliases: [センターピン理論, センターピン戦略, Center Pin]
+aliases: [センターピン理論, センターピン戦略]
 description: "ボウリングの先頭ピンのように、そこを倒せば残りも連鎖して倒れる「急所の一点」 があるという見方。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 問題解決, 戦略]

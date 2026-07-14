@@ -1,6 +1,8 @@
 ---
 title: MECE
 id: AT-0008
+titles:
+  en: MECE
 slug: mece
 type: framework
 aliases: [Mutually Exclusive and Collectively Exhaustive, モレなくダブりなく]

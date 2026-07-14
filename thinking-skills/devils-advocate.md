@@ -1,9 +1,11 @@
 ---
 title: 悪魔の代弁者
 id: AT-0029
+titles:
+  en: Devil's Advocate
 slug: devils-advocate
 type: thinking-skill
-aliases: [Devil's Advocate, あえて反対する役]
+aliases: [あえて反対する役]
 description: "あえて反対意見・反論の役を引き受け、結論の弱点を意図的にあぶり出す技。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 分析]

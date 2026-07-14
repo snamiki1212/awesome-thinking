@@ -1,15 +1,17 @@
 ---
 title: ラテラルシンキング
 id: AT-0018
+titles:
+  en: Lateral Thinking
 slug: lateral-thinking
 type: thinking-method
-aliases: [Lateral Thinking, 水平思考]
+aliases: [水平思考]
 description: "論理の積み上げではなく、前提を飛び越えて新しい発想を生む流儀。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想]
 ---
 
-# ラテラルシンキング（水平思考）
+# ラテラルシンキング（Lateral Thinking）
 
 ## 一言でいうと
 論理の積み上げではなく、前提を飛び越えて新しい発想を生む流儀。

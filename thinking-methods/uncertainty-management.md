@@ -1,9 +1,11 @@
 ---
 title: 不確実性マネジメント
 id: AT-0025
+titles:
+  en: Managing Uncertainty
 slug: uncertainty-management
 type: thinking-method
-aliases: [Managing Uncertainty, Uncertainty Management, 不確実性の管理, エンジニアリング思考]
+aliases: [Uncertainty Management, 不確実性の管理, エンジニアリング思考]
 description: "物事を「いま何が分かっていないか（不確実性）」を起点に捉え、減らせる未知は情報を得て減らし、減らせない未知は意識して引き受ける、という考え方の流儀。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [意思決定, 問題解決, 不確実性, リスク]

@@ -1,15 +1,17 @@
 ---
 title: クリティカルシンキング
 id: AT-0017
+titles:
+  en: Critical Thinking
 slug: critical-thinking
 type: thinking-method
-aliases: [Critical Thinking, 批判的思考]
+aliases: [批判的思考]
 description: "「本当にそうか？」と前提や根拠を吟味し、思い込みを排して判断する流儀。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [分析, 意思決定]
 ---
 
-# クリティカルシンキング（批判的思考）
+# クリティカルシンキング（Critical Thinking）
 
 ## 一言でいうと
 「本当にそうか？」と前提や根拠を吟味し、思い込みを排して判断する流儀。

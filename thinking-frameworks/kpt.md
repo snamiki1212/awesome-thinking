@@ -1,9 +1,11 @@
 ---
 title: KPT
 id: AT-0012
+titles:
+  en: KPT
 slug: kpt
 type: framework
-aliases: [KPT, Keep Problem Try, 振り返り]
+aliases: [Keep Problem Try, 振り返り]
 description: "続けること・課題・次に試すことの3つで振り返りを整理する枠組み。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [改善, 振り返り]

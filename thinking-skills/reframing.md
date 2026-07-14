@@ -1,9 +1,11 @@
 ---
 title: リフレーミング
 id: AT-0030
+titles:
+  en: Reframing
 slug: reframing
 type: thinking-skill
-aliases: [Reframing, 枠組みの捉え直し]
+aliases: [枠組みの捉え直し]
 description: "同じ事実を別の枠組み（フレーム）から捉え直し、意味づけや見え方を変える技。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [発想, 問題解決]

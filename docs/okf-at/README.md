@@ -2,7 +2,7 @@
 type: guideline
 title: ナレッジ管理ルール（OKF-AT）
 description: OKF v0.1 をベースにした本リポジトリ独自プロファイル OKF-AT の frontmatter とリンクの規約を定める。
-timestamp: 2026-07-13T16:30:00+09:00
+timestamp: 2026-07-13T12:00:00+09:00
 tags: [okf, ナレッジ管理]
 ---
 
@@ -28,13 +28,14 @@ OKF-AT は OKF v0.1 の制約を壊さずに強めるラッパーであり、**O
 |---|---|---|---|---|
 | `type` | Required | **必須** | string | Concept の種別。空でない文字列。値は自由（free-form） |
 | `title` | Recommended | **必須** | string | 人間向けの表示名（日本語タイトル） |
+| `titles` | Extension | 任意 | map | 言語コード（ISO 639-1）→ その言語での正式名。思考ツールの詳細ファイルで使う（後述） |
 | `description` | Recommended | **必須** | string | 1 文の要約。人間とエージェントの検索性のため |
 | `timestamp` | Recommended | **必須** | string | 最終更新日時（ISO 8601） |
 | `tags` | Recommended | **必須** | string[] | 横断的な分類タグ |
 | `resource` | Recommended | 任意 | string | 対象アセットを一意に識別する URI |
 | `slug` | Extension | 任意 | string | 英語 kebab-case のスラッグ。思考ツールの詳細ファイルで使う |
 | `id` | Extension | 思考ツールでは**必須** | string | 思考ツールを一意に識別する不変の ID。`AT-0001` から始まる 4 桁以上の連番 |
-| `aliases` | Extension | 任意 | string[] | 別名・英語名。思考ツールの詳細ファイルで使う |
+| `aliases` | Extension | 任意 | string[] | 別名・略称・別表記。思考ツールの詳細ファイルで使う |
 | `status` | Extension | 任意 | string | ADR のステータス（Accepted / Rejected / Superseded by <adr-slug>） |
 | `created_at` | Extension | **禁止** | date | 廃止。作成日は Git 履歴で追う |
 | `updated_at` | Extension | **禁止** | date | 廃止。更新日時は `timestamp` に一本化する |
@@ -50,14 +51,26 @@ OKF-AT は OKF v0.1 の制約を壊さずに強めるラッパーであり、**O
 ---
 title: 第一原理思考
 id: AT-0001
+titles:
+  en: First Principles Thinking
 slug: first-principles
 type: mental-model
-aliases: [First Principles Thinking, 第一原理, 原理原則思考]
+aliases: [第一原理, 原理原則思考]
 description: "「当たり前」とされている前提を疑い、これ以上分解できない根本の事実まで遡ってから考え直す見方。"
 timestamp: 2026-06-04T09:00:00+09:00
 tags: [問題解決, 意思決定]
 ---
 ```
+
+### `title` / `titles` / `aliases` の使い分け
+
+多言語の正式名は `titles` で管理する。経緯は [ADR: 英語名など多言語の正式名を frontmatter の titles で管理する](../../adr/20260713-titles-frontmatter-for-multilingual-names/README.md) を参照。
+
+- **`title`（必須・string）**: 日本語の正式名。リポジトリのメイン言語が日本語のため、`title` を日本語の正とし、`titles` に `ja` は書かない（二重管理を避ける）
+- **`titles`（任意・map）**: 言語コード（ISO 639-1、小文字）をキーに、その言語での正式名を書く。英語名は `titles.en`。由来言語の呼称があれば `de` / `fr` などを追加してよい
+- **`aliases`（任意・string[]）**: 正式名以外の別名・略称・別表記（言語は問わない）。`title` / `titles` に載せた正式名は重複させない
+
+OKF v0.1 は `title` を string と定めているため、`title` をマップにする形（`title.en` のような入れ子）は採らない。`titles` を別フィールドにすることで OKF 互換を保つ。
 
 ## `type` の値
 

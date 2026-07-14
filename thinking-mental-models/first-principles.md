@@ -1,9 +1,11 @@
 ---
 title: 第一原理思考
 id: AT-0001
+titles:
+  en: First Principles Thinking
 slug: first-principles
 type: mental-model
-aliases: [First Principles Thinking, 第一原理, 原理原則思考]
+aliases: [第一原理, 原理原則思考]
 description: "「当たり前」とされている前提を疑い、これ以上分解できない根本の事実（第一原理）まで遡ってから考え直す見方。"
 timestamp: 2026-07-13T00:00:00+09:00
 tags: [問題解決, 意思決定]

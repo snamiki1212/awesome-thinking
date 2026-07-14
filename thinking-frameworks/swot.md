@@ -1,9 +1,10 @@
 ---
 title: SWOT分析
 id: AT-0007
+titles:
+  en: SWOT Analysis
 slug: swot
 type: framework
-aliases: [SWOT Analysis]
 description: "強み・弱み・機会・脅威の4象限に情報を整理し、戦略の現状を把握する枠組み。"
 timestamp: 2026-07-13T14:50:00+09:00
 tags: [分析, 意思決定, 戦略]
