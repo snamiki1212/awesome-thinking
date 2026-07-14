@@ -11,6 +11,7 @@
  *   - type が空でない
  *   - timestamp が ISO 8601 形式である
  *   - 禁止フィールド（created_at / updated_at）を使っていない
+ *   - 思考ツールの詳細ファイルが一意な AT-0001 から始まる形式の id を持つ
  *   - 本文に wikilink（[[スラッグ]]）を使っていない（コードスパン・コードブロック内は除く）
  *
  * 検査対象から外すファイルは、同ディレクトリの 2 つの管理ファイルで扱う（ハードコードしない）:
@@ -39,11 +40,20 @@ const SPEC_PATH = 'docs/okf-at/README.md';
 
 const REQUIRED_FIELDS = ['type', 'title', 'description', 'timestamp', 'tags'];
 const FORBIDDEN_FIELDS = ['created_at', 'updated_at'];
+const THINKING_ID = /^AT-\d{4,}$/;
 // 日付のみ、または日時（タイムゾーン付き可）の ISO 8601
 const ISO_8601 = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(Z|[+-]\d{2}:?\d{2})?)?$/;
 
 // OKF の予約ファイル。Concept ではないため frontmatter を要求しない。
 const RESERVED_FILES = new Set(['index.md', 'log.md']);
+
+/** 思考ツールの詳細ファイルかを判定する。README.md と index.md は対象外。 */
+function isThinkingConcept(relPath) {
+  return (
+    /^thinking-(?:frameworks|mental-models|methods|skills)\/[^/]+\.md$/.test(relPath) &&
+    path.basename(relPath) !== 'README.md'
+  );
+}
 
 /** ignore.txt を読み込み、パターンの RegExp 配列を返す。 */
 function loadIgnore() {
@@ -123,6 +133,14 @@ function lintFile(relPath) {
       violations.push(`禁止フィールド \`${key}\` を使っている（\`timestamp\` に一本化する）`);
     }
   }
+  if (isThinkingConcept(relPath)) {
+    const id = fm.fields.get('id');
+    if (!id || !id.hasValue) {
+      violations.push('思考ツールの詳細ファイルには `id` が必要');
+    } else if (!THINKING_ID.test(id.value)) {
+      violations.push(`\`id\` が形式 \`AT-0001\` から始まる連番に一致しない: ${id.value}`);
+    }
+  }
   for (const line of findWikilinks(text)) {
     violations.push(`wikilink \`[[スラッグ]]\` を使っている（Markdown リンクで書く）: ${line} 行目`);
   }
@@ -149,14 +167,30 @@ function main() {
   const errors = [];
   const warns = [];
   const staleAllowlist = [];
+  const thinkingIds = new Map();
 
   for (const relPath of targets) {
     const violations = lintFile(relPath);
+    if (isThinkingConcept(relPath)) {
+      const fm = parseFrontmatter(fs.readFileSync(path.join(REPO_ROOT, relPath), 'utf8'));
+      const id = fm && fm.fields.get('id');
+      if (id && id.hasValue && THINKING_ID.test(id.value)) {
+        const paths = thinkingIds.get(id.value) || [];
+        paths.push(relPath);
+        thinkingIds.set(id.value, paths);
+      }
+    }
     if (violations.length === 0) {
       if (allowlist.has(relPath)) staleAllowlist.push(relPath);
       continue;
     }
     (allowlist.has(relPath) ? warns : errors).push({ relPath, violations });
+  }
+  for (const [id, paths] of thinkingIds) {
+    if (paths.length < 2) continue;
+    for (const relPath of paths) {
+      errors.push({ relPath, violations: [`\`id\` が重複している: ${id}（${paths.join(', ')}）`] });
+    }
   }
 
   for (const { relPath, violations } of warns) {

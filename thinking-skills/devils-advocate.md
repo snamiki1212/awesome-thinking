@@ -1,5 +1,6 @@
 ---
 title: 悪魔の代弁者
+id: AT-0029
 titles:
   en: Devil's Advocate
 slug: devils-advocate

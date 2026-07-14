@@ -1,5 +1,6 @@
 ---
 title: アナロジー思考
+id: AT-0026
 titles:
   en: Analogical Reasoning
 slug: analogical-reasoning

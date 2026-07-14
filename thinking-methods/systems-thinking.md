@@ -1,5 +1,6 @@
 ---
 title: システム思考
+id: AT-0019
 titles:
   en: Systems Thinking
 slug: systems-thinking

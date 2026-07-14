@@ -1,5 +1,6 @@
 ---
 title: ロジカルシンキング
+id: AT-0016
 titles:
   en: Logical Thinking
 slug: logical-thinking

@@ -1,5 +1,6 @@
 ---
 title: PDCAサイクル
+id: AT-0011
 titles:
   en: PDCA Cycle
 slug: pdca

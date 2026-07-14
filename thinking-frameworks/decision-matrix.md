@@ -1,5 +1,6 @@
 ---
 title: 意思決定マトリクス
+id: AT-0015
 titles:
   en: Decision Matrix
 slug: decision-matrix

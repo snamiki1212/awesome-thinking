@@ -1,5 +1,6 @@
 ---
 title: ラテラルシンキング
+id: AT-0018
 titles:
   en: Lateral Thinking
 slug: lateral-thinking

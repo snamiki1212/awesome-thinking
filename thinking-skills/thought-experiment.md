@@ -1,5 +1,6 @@
 ---
 title: 思考実験
+id: AT-0033
 titles:
   en: Thought Experiment
   de: Gedankenexperiment

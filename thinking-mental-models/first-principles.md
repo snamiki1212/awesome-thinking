@@ -1,5 +1,6 @@
 ---
 title: 第一原理思考
+id: AT-0001
 titles:
   en: First Principles Thinking
 slug: first-principles

@@ -1,5 +1,6 @@
 ---
 title: クリティカルシンキング
+id: AT-0017
 titles:
   en: Critical Thinking
 slug: critical-thinking

@@ -1,5 +1,6 @@
 ---
 title: 機会費用
+id: AT-0002
 titles:
   en: Opportunity Cost
 slug: opportunity-cost

@@ -1,5 +1,6 @@
 ---
 title: エッセンシャル思考
+id: AT-0024
 titles:
   en: Essentialism
 slug: essentialism

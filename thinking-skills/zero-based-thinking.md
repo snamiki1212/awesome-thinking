@@ -1,5 +1,6 @@
 ---
 title: ゼロベース思考
+id: AT-0028
 titles:
   en: Zero-Based Thinking
 slug: zero-based-thinking

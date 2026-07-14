@@ -1,5 +1,6 @@
 ---
 title: 地図は領土ではない
+id: AT-0004
 titles:
   en: The Map is Not the Territory
 slug: map-is-not-the-territory

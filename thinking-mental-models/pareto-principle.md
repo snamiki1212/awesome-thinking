@@ -1,5 +1,6 @@
 ---
 title: パレートの法則
+id: AT-0005
 titles:
   en: Pareto Principle
 slug: pareto-principle

@@ -1,5 +1,6 @@
 ---
 title: 極端思考
+id: AT-0031
 titles:
   en: Extreme Case Thinking
 slug: extreme-case-thinking

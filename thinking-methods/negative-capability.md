@@ -1,5 +1,6 @@
 ---
 title: ネガティブ・ケイパビリティ
+id: AT-0023
 titles:
   en: Negative Capability
 slug: negative-capability

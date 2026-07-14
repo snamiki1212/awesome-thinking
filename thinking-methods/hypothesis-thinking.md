@@ -1,5 +1,6 @@
 ---
 title: 仮説思考
+id: AT-0021
 titles:
   en: Hypothesis Thinking
 slug: hypothesis-thinking

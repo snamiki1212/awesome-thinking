@@ -1,5 +1,6 @@
 ---
 title: 命名
+id: AT-0032
 titles:
   en: Naming
 slug: naming

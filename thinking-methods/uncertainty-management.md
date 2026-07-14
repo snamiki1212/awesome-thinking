@@ -1,5 +1,6 @@
 ---
 title: 不確実性マネジメント
+id: AT-0025
 titles:
   en: Managing Uncertainty
 slug: uncertainty-management

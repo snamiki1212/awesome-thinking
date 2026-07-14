@@ -1,5 +1,6 @@
 ---
 title: 虫の目・鳥の目・魚の目
+id: AT-0034
 titles:
   en: Bird's-eye, Worm's-eye, and Fish's-eye View
 slug: birds-worms-fish-eye

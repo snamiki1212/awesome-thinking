@@ -1,5 +1,6 @@
 ---
 title: センターピン
+id: AT-0006
 titles:
   en: Center Pin
 slug: center-pin

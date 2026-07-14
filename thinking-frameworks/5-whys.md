@@ -1,5 +1,6 @@
 ---
 title: なぜなぜ分析
+id: AT-0013
 titles:
   en: 5 Whys
 slug: 5-whys

@@ -1,5 +1,6 @@
 ---
 title: リフレーミング
+id: AT-0030
 titles:
   en: Reframing
 slug: reframing

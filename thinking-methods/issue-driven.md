@@ -1,5 +1,6 @@
 ---
 title: イシュー思考
+id: AT-0022
 titles:
   en: Issue-Driven
 slug: issue-driven

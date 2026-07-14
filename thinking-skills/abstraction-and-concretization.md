@@ -1,5 +1,6 @@
 ---
 title: 抽象化と具体化
+id: AT-0027
 titles:
   en: Abstraction and Concretization
 slug: abstraction-and-concretization

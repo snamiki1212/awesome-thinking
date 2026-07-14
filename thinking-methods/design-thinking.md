@@ -1,5 +1,6 @@
 ---
 title: デザイン思考
+id: AT-0020
 titles:
   en: Design Thinking
 slug: design-thinking

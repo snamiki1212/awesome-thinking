@@ -1,5 +1,6 @@
 ---
 title: SWOT分析
+id: AT-0007
 titles:
   en: SWOT Analysis
 slug: swot

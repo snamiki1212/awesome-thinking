@@ -21,6 +21,7 @@
 * [4タイプを束ねる総称を「思考ツール（thinking tools）」とする](./20260604-umbrella-term-thinking-tools/) - 4タイプを束ねる中間概念の総称を「思考ツール（thinking tools）」とし、リポジトリ全体の総称 thinking と役割を分ける。
 * [項目名は特定出典の造語より一般的・確立した呼称を優先する](./20260608-prefer-established-general-naming/) - 項目の命名は特定の著者・一冊の本の造語より、その分野で一般的・確立した呼称を優先し、出典は単一に依存しないと定める。
 * [ナレッジ管理フォーマットに OKF-AT を採用する](./20260713-adopt-okf-at-knowledge-format/) - OKF v0.1 をベースにした独自プロファイル OKF-AT を定義し、リポジトリ全体のナレッジ管理フォーマットとして採用する。
+* [思考ツールに不変の通し番号 ID を付ける](./20260713-adopt-thinking-ids/) - 思考ツールの詳細ファイルに AT-0001 から始まる不変の通し番号 ID を付け、一覧と CI で維持する。
 * [OKF の目次 index.md をツールで自動生成する](./20260713-generate-okf-index/) - OKF の予約ファイル index.md を scripts/gen-okf-index で全ディレクトリに自動生成し、CI で最新かを検査する運用を定める。
 * [関連セクションのリンクを Markdown リンクに統一する](./20260713-markdown-links-for-related-sections/) - 詳細ファイルの関連付けに使っていた wikilink（[[スラッグ]]）を廃止し、参照元からの相対パスの Markdown リンクに統一する。
 * [詳細ファイルに任意の「図解」節を設け、mermaid で図示する](./20260713-optional-diagram-section/) - 構造そのものが図的な項目に限り、定義の直後に mermaid の図解節を置く。全項目必須にはしない。
