@@ -66,7 +66,7 @@ flowchart TB
 <!-- 「ひとこと」は自動生成ではない。リンク先の詳細ファイルの frontmatter `description` をそのまま転記し、独自に要約を書き換えない。詳細と一覧の説明が食い違うため。 -->
 
 | ID | ジャンル | 項目 | ひとこと |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | AT-0001 | 🧠 メンタルモデル | [第一原理思考](./thinking-mental-models/first-principles.md)（First Principles Thinking） | 前提を疑い、根本の事実まで遡って考え直す |
 | AT-0002 | 🧠 メンタルモデル | [機会費用](./thinking-mental-models/opportunity-cost.md)（Opportunity Cost） | 選ぶことは、選ばなかった価値を捨てること |
 | AT-0003 | 🧠 メンタルモデル | [複利](./thinking-mental-models/compound-interest.md)（Compound Interest） | 成果が次の成果の土台になり、伸びが加速する |
