@@ -42,3 +42,4 @@ tags: [問題解決, 伝達, 分析]
 - [critical-thinking](./critical-thinking.md)（クリティカルシンキング）
 - [lateral-thinking](./lateral-thinking.md)（ラテラルシンキング）
 - [mece](../thinking-frameworks/mece.md)（MECE） / [logic-tree](../thinking-frameworks/logic-tree.md)（ロジックツリー）— 代表的な道具。
+- [so-what-why-so](../thinking-skills/so-what-why-so.md)（So What? / Why So?）— 主張と根拠の縦のつながりを点検する往復の技。

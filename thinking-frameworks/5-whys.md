@@ -52,7 +52,9 @@ flowchart TD
 
 ## 似ている用語との違い
 - **5 Whys（Five Whys）** — 同じ手法を指す別名で、内容は同一。本リポジトリでは1項目として扱う。強いて言えば「5 Whys」は**回数（なぜを5回問う）**を、「なぜなぜ分析」は**動作（なぜを繰り返す）**を呼び名の前面に出している、というニュアンスの差があるだけ。いずれも「5回」は目安で固定ではない。
+- **[So What? / Why So?](../thinking-skills/so-what-why-so.md)** — どちらも「なぜ？」を問う点が似て混同されやすいが、問う対象が違う。なぜなぜ分析の「なぜ」は**原因（なぜ起きたか）**を掘るのに対し、Why So? の「なぜ」は**根拠（なぜそう言えるか）**を確かめる。原因を突き止めたいならこちら、主張の筋道を検証したいなら So What? / Why So?（使い分けは同項目を参照）。
 
 ## 関連
 - [logic-tree](./logic-tree.md)（ロジックツリー）— 原因が分岐する場合に併用。
 - [hypothesis-thinking](../thinking-methods/hypothesis-thinking.md)（仮説思考）
+- [so-what-why-so](../thinking-skills/so-what-why-so.md)（So What? / Why So?）— 「なぜ」が似るが、原因ではなく根拠を問う別物。

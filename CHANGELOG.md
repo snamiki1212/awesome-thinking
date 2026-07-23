@@ -14,6 +14,10 @@ PR 単位の詳細は、各バージョンの [GitHub Releases](https://github.c
 
 ## [Unreleased]
 
+### Added
+
+- [AT-0036: So What? / Why So?](./thinking-skills/so-what-why-so.md)（思考術）を収録した。
+
 ### Changed
 
 - 変更履歴と GitHub Releases を併用する運用を導入した。

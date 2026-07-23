@@ -57,3 +57,4 @@ flowchart TD
 - [5-whys](./5-whys.md)（なぜなぜ分析）— 原因の縦掘りに近い。
 - [decision-matrix](./decision-matrix.md)（意思決定マトリクス）— 評価軸から評価項目への分解に木構造の分解を使う。
 - [pareto-principle](../thinking-mental-models/pareto-principle.md)（パレートの法則）
+- [so-what-why-so](../thinking-skills/so-what-why-so.md)（So What? / Why So?）— 木の各縦のつながりが飛躍していないかを点検する。

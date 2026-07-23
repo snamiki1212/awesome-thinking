@@ -102,6 +102,7 @@ flowchart TB
 | AT-0033 | ⚡ 思考術 | [思考実験](./thinking-skills/thought-experiment.md)（Thought Experiment） | 頭の中に仮想状況を設定し、帰結を推論して前提を吟味する |
 | AT-0034 | ⚡ 思考術 | [虫の目・鳥の目・魚の目](./thinking-skills/birds-worms-fish-eye.md)（Bird's-eye, Worm's-eye, and Fish's-eye View） | 細部・全体・流れの3視点に切り替えて多面的に捉える |
 | AT-0035 | ⚡ 思考術 | [アクティブリコール](./thinking-skills/active-recall.md)（Active Recall） | 見ずに思い出して書き出し、理解の穴を見つける |
+| AT-0036 | ⚡ 思考術 | [So What? / Why So?](./thinking-skills/so-what-why-so.md) | 「だから何が言える？」と「なぜそう言える？」を往復し、結論と根拠の縦のつながりを点検する |
 
 ## ディレクトリ構成
 
