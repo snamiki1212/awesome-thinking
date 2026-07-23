@@ -55,3 +55,4 @@ flowchart LR
 - [naming](./naming.md)（命名）— 抽象化で抜き出した本質に名前をつけると扱いやすくなる。
 - [birds-worms-fish-eye](./birds-worms-fish-eye.md)（虫の目・鳥の目・魚の目）— 鳥の目⇔虫の目の往復が抽象⇔具体に対応する。
 - [analogical-reasoning](../thinking-methods/analogical-reasoning.md)（アナロジー思考）— 抽象化で抜き出した本質を別領域に写す土台になる。
+- [so-what-why-so](./so-what-why-so.md)（So What? / Why So?）— 上（So What?）と下（Why So?）の往復という骨格を共有する。こちらは同じ論の縦の検証に閉じる。
